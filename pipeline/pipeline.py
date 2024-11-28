@@ -65,6 +65,7 @@ def get_generation_config(input_ids, tokenizer, data_name):
 @torch.no_grad()
 def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_gen_once=args.num_generations_per_prompt):
     device = args.device
+
     model= models.load_model.load_model(model_name=model_name, device=args.device)
     tokenizer = models.load_model.load_tokenizer(model_name=model_name)
     SenSimModel = SentenceTransformer('sentence-transformers/nli-roberta-large')
@@ -94,6 +95,7 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         if args.decoding_method == 'beam_search':
             raise NotImplementedError()
         elif args.decoding_method == 'greedy':
+            import pdb; pdb.set_trace()
             dict_outputs = model.generate(input_ids, attention_mask=batch['attention_mask'].to(device),
                                         num_beams=1,
                                         do_sample=False,

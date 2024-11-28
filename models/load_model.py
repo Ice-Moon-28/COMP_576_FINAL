@@ -1,15 +1,27 @@
 import functools
 import torch
 from transformers import LlamaForCausalLM, LlamaTokenizer
-
+from torch.nn import DataParallel
 @functools.lru_cache()
 def load_model(model_name, device, cache_dir=None, torch_dtype=torch.float16):
     try:
         if model_name.startswith("meta-llama"):
             cleaned_model_name = model_name.removeprefix("meta-llama/")
-            model = LlamaForCausalLM.from_pretrained(model_name, cache_dir='./weights/' + cleaned_model_name, torch_dtype=torch_dtype)
-        
-        model.to(device)
+            model = LlamaForCausalLM.from_pretrained(
+                model_name,
+                cache_dir='./weights/' + cleaned_model_name,
+                torch_dtype=torch_dtype,
+            )
+            gpu_count = torch.cuda.device_count()
+
+            if gpu_count > 1:
+                model = DataParallel(model, device_ids=[i for i in range(gpu_count)])
+
+                model = model.to(device)
+
+                model.generate = model.module.generate
+            else:
+                model = model.to(device)
 
         return model
 

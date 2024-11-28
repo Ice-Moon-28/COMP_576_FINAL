@@ -1,1 +1,1 @@
-python main.py --model meta-llama/Llama-2-7b-hf  --dataset coqa --device mps --num_generations_per_prompt 5
+python main.py --model meta-llama/Llama-2-7b-hf  --dataset coqa --device cuda --num_generations_per_prompt 10
