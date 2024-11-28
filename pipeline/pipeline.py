@@ -9,61 +9,52 @@ import pandas as pd
 import torch
 import tqdm
 import transformers
+from eval import coqa, squad
+from log.log import get_log_info
 from sentence_transformers import SentenceTransformer
+import models.load_model
+import setting
 from torchmetrics.text.bert import BERTScore
 
-import _settings
-import dataeval.coqa as coqa
-import dataeval.nq_open as nq_open
-import dataeval.triviaqa as triviaqa
-import dataeval.SQuAD as SQuAD
-import dataeval.TruthfulQA as TruthfulQA
+import setting
+# import dataeval.coqa as coqa
+# import dataeval.nq_open as nq_open
+# import dataeval.triviaqa as triviaqa
+# import dataeval.SQuAD as SQuAD
+# import dataeval.TruthfulQA as TruthfulQA
 import models
-import utils
-from func.metric import *
-
-parser = argparse.ArgumentParser()
-parser.add_argument('--model', type=str, default='llama-13b-hf')
-parser.add_argument('--dataset', type=str, default='coqa')
-parser.add_argument('--device', type=str, default='cuda:0')
-parser.add_argument('--fraction_of_data_to_use', type=float, default=1.0)
-parser.add_argument('--num_generations_per_prompt', type=int, default=10)
-parser.add_argument('--temperature', type=float, default=0.5)
-parser.add_argument('--decoding_method', type=str, default='greedy')
-parser.add_argument('--top_p', type=float, default=0.99)
-parser.add_argument('--top_k', type=int, default=10)
-parser.add_argument('--seed', type=int, default=2023)
-parser.add_argument('--nprocess', type=int, default=None)
-parser.add_argument('--project_ind', type=int, default=0)
+import util
+from util.metrics import get_lenghthNormalized_entropy, get_perplexity_score, getAvgBertScore, getEigenIndicator_v0, getEigenIndicatorOutput, getLexicalSim
+from util.metrics import get_energy_score
+from pipeline.pipeline_parser import args
 
 
-args = parser.parse_args()
-logInfo = open("./data/output/logInfo_{}_{}.txt".format(args.model, args.dataset), mode="w",encoding="utf-8")
+logInfo = get_log_info(args)
 
 
 # _UNUSED_TOKENIZER = models.load_tokenizer()
 def get_dataset_fn(data_name):
-    if data_name == 'triviaqa':
-        return triviaqa.get_dataset
+    # if data_name == 'triviaqa':
+    #     return triviaqa.get_dataset
     if data_name == 'coqa':
         return coqa.get_dataset
-    if data_name == 'nq_open':
-        return nq_open.get_dataset
-    if data_name == "SQuAD":
-        return SQuAD.get_dataset
+    # if data_name == 'nq_open':
+    #     return nq_open.get_dataset
+    if data_name == "squad":
+        return squad.get_dataset
 
 
 def get_generation_config(input_ids, tokenizer, data_name):
     assert len(input_ids.shape) == 2
     max_length_of_generated_sequence = 256
-    if data_name == 'triviaqa':
-        generation_config = triviaqa._generate_config(tokenizer)
+    # if data_name == 'triviaqa':
+    #     generation_config = triviaqa._generate_config(tokenizer)
     if data_name == 'coqa':
         generation_config = coqa._generate_config(tokenizer)
-    if data_name == 'nq_open':
-        generation_config = nq_open._generate_config(tokenizer)
-    if data_name == 'SQuAD':
-        generation_config = SQuAD._generate_config(tokenizer)
+    # if data_name == 'nq_open':
+    #     generation_config = nq_open._generate_config(tokenizer)
+    if data_name == 'squad':
+        generation_config = squad._generate_config(tokenizer)
     generation_config['max_new_tokens'] = max_length_of_generated_sequence
     generation_config['early_stopping'] = True
     # https://jaketae.github.io/study/gpt2/#setup
@@ -74,11 +65,12 @@ def get_generation_config(input_ids, tokenizer, data_name):
 @torch.no_grad()
 def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_gen_once=args.num_generations_per_prompt):
     device = args.device
-    model, tokenizer = models.load_model_and_tokenizer(model_name, args.device)
-    SenSimModel = SentenceTransformer('./data/weights/nli-roberta-large')
-    bertscore = BERTScore(model_name_or_path="./data/weights/bert-base/", device="cuda")
+    model= models.load_model.load_model(model_name=model_name, device=args.device)
+    tokenizer = models.load_model.load_tokenizer(model_name=model_name)
+    SenSimModel = SentenceTransformer('sentence-transformers/nli-roberta-large')
+    # bertscore = BERTScore(model_name_or_path="./weights/bert-base-uncased/", device=setting.device)
 
-    utils.seed_everything(seed)
+    util.seed_everything(seed)
     dataset = get_dataset_fn(args.dataset)(tokenizer)
     if args.fraction_of_data_to_use < 1.0:
         dataset = dataset.train_test_split(test_size=(1 - args.fraction_of_data_to_use), seed=seed)['train']
@@ -109,13 +101,16 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
                                         output_hidden_states = True,
                                         return_dict_in_generate=True,
                                         output_scores=True)
-
             scores = dict_outputs.scores    #([logits],[logits],[logits])
             perplexity = get_perplexity_score(scores)
             energy_score = get_energy_score(scores)
             most_likely_generations = dict_outputs.sequences.cpu()[0, input_length:]
 
-        torch.cuda.empty_cache()
+        if setting.device == 'cuda':
+            torch.cuda.empty_cache()
+        elif setting.device == 'mps':
+            torch.mps.empty_cache()
+
         generations = []
         num_gens = args.num_generations_per_prompt
         while num_gens > 0:
@@ -140,7 +135,7 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         best_generated_text = tokenizer.decode(most_likely_generations, skip_special_tokens=True)
         generated_texts = [tokenizer.decode(_, skip_special_tokens=True) for _ in generations]
         lexical_similarity = getLexicalSim(generated_texts)
-        sent_bertscore = getAvgBertScore(bertscore, best_generated_text, generated_texts)
+        # sent_bertscore = getAvgBertScore(bertscore, best_generated_text, generated_texts)
         eigenIndicatorOutput, eigenValue_O = getEigenIndicatorOutput(generated_texts, SenSimModel)
 
 
@@ -179,11 +174,11 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
                 lexical_similarity=lexical_similarity
             )
         )
-        curr_seq.update(
-            dict(
-                sent_bertscore=sent_bertscore
-            )
-        )
+        # curr_seq.update(
+        #     dict(
+        #         sent_bertscore=sent_bertscore
+        #     )
+        # )
         curr_seq.update(
             dict(
                 entropy=predictive_entropy
@@ -204,7 +199,6 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
 
         sequences.append(curr_seq)
         torch.cuda.empty_cache()
-        ########## 信息打印 #########
         # print("Prompt:", tokenizer.decode(input_ids.cpu()[0], skip_special_tokens=True))
         print("Question:", batch['question'][0])
         print("AnswerGT:", batch['answer'][0])
@@ -227,7 +221,7 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         print("Energy:", energy_score, file=logInfo)
         print("NormalizedEntropy: ", predictive_entropy, file=logInfo)
         print("LexicalSimilarity: ", lexical_similarity, file=logInfo)
-        print("SentBERTScore: ", sent_bertscore, file=logInfo)
+        # print("SentBERTScore: ", sent_bertscore, file=logInfo)
         print("EigenScore: ", eigenIndicator, file=logInfo)
         print("EigenValue:", eigenValue, file=logInfo)
         print("EigenScore-Output: ", eigenIndicatorOutput, file=logInfo)
@@ -249,7 +243,7 @@ def get_num_tokens(generation):  # generation: num_seq x max(num_tokens)
 def main(overwrite=False, continue_from=None, parallel:int=None):
     if continue_from:
         fname = os.path.basename(continue_from)
-        args.__dict__ = utils.jload(continue_from.replace(fname, 'args'+fname.replace("_partial.pkl", ".json")))
+        args.__dict__ = util.jload(continue_from.replace(fname, 'args'+fname.replace("_partial.pkl", ".json")))
         old_sequences = pd.read_pickle(continue_from)
         cache_dir = os.path.dirname(continue_from)
         run_id = int(os.path.basename(continue_from).replace("_partial.pkl", ""))
@@ -257,9 +251,9 @@ def main(overwrite=False, continue_from=None, parallel:int=None):
     else:
         old_sequences = []
         model_name = args.model
-        if '/' in model_name:
-            model_name = model_name.replace('/', '_')
-        cache_dir = os.path.join(_settings.GENERATION_FOLDER, f'{model_name}_{args.dataset}_{args.project_ind}')
+        # if '/' in model_name:
+        #     model_name = model_name.replace('/', '_')
+        cache_dir = os.path.join(setting.GENERATION_FOLDER, f'{model_name}_{args.dataset}_{args.project_ind}')
         os.makedirs(cache_dir, exist_ok=True)
         old_results = glob.glob(os.path.join(cache_dir, '*.pkl'))
         old_results = [_ for _ in old_results if '_partial' not in _]
@@ -269,6 +263,7 @@ def main(overwrite=False, continue_from=None, parallel:int=None):
         run_id = len(old_results)
         with open(os.path.join(cache_dir, f'args{run_id}.json'), 'w') as f:
             json.dump(args.__dict__, f)
+            
     print(f'Generating {args.num_generations_per_prompt} generations per prompt for {model_name} on {args.dataset}...')
     print(f"Saving to {os.path.join(cache_dir, f'{run_id}.pkl')}")
     sequences = get_generations(model_name, args, seed=args.seed, old_sequences=old_sequences)
@@ -276,5 +271,4 @@ def main(overwrite=False, continue_from=None, parallel:int=None):
     pd.to_pickle(sequences, os.path.join(cache_dir, f'{run_id}.pkl'))
     return
 
-if __name__ == '__main__':
-    task_runner = main(parallel=args.nprocess)
+
