@@ -69,7 +69,7 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
     model= models.load_model.load_model(model_name=model_name, device=args.device)
     tokenizer = models.load_model.load_tokenizer(model_name=model_name)
     SenSimModel = SentenceTransformer('sentence-transformers/nli-roberta-large')
-    # bertscore = BERTScore(model_name_or_path="./weights/bert-base-uncased/", device=setting.device)
+    bertscore = BERTScore(model_name_or_path="bert-base-uncased", device=setting.device)
 
     util.seed_everything(seed)
     dataset = get_dataset_fn(args.dataset)(tokenizer)
@@ -95,7 +95,6 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         if args.decoding_method == 'beam_search':
             raise NotImplementedError()
         elif args.decoding_method == 'greedy':
-            import pdb; pdb.set_trace()
             dict_outputs = model.generate(input_ids, attention_mask=batch['attention_mask'].to(device),
                                         num_beams=1,
                                         do_sample=False,
@@ -137,7 +136,7 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         best_generated_text = tokenizer.decode(most_likely_generations, skip_special_tokens=True)
         generated_texts = [tokenizer.decode(_, skip_special_tokens=True) for _ in generations]
         lexical_similarity = getLexicalSim(generated_texts)
-        # sent_bertscore = getAvgBertScore(bertscore, best_generated_text, generated_texts)
+        sent_bertscore = getAvgBertScore(bertscore, best_generated_text, generated_texts)
         eigenIndicatorOutput, eigenValue_O = getEigenIndicatorOutput(generated_texts, SenSimModel)
 
 
@@ -176,11 +175,11 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
                 lexical_similarity=lexical_similarity
             )
         )
-        # curr_seq.update(
-        #     dict(
-        #         sent_bertscore=sent_bertscore
-        #     )
-        # )
+        curr_seq.update(
+            dict(
+                sent_bertscore=sent_bertscore
+            )
+        )
         curr_seq.update(
             dict(
                 entropy=predictive_entropy
@@ -200,8 +199,13 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
             curr_seq['additional_answers'] = [x[0] for x in batch['additional_answers']]
 
         sequences.append(curr_seq)
-        torch.cuda.empty_cache()
-        # print("Prompt:", tokenizer.decode(input_ids.cpu()[0], skip_special_tokens=True))
+        
+        if setting.device == 'cuda':
+            torch.cuda.empty_cache()
+        elif setting.device == 'mps':
+            torch.mps.empty_cache()
+
+        print("Prompt:", tokenizer.decode(input_ids.cpu()[0], skip_special_tokens=True))
         print("Question:", batch['question'][0])
         print("AnswerGT:", batch['answer'][0])
         print("MostLikelyAns:", tokenizer.decode(curr_seq['most_likely_generation_ids'], skip_special_tokens=True))
@@ -223,7 +227,7 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         print("Energy:", energy_score, file=logInfo)
         print("NormalizedEntropy: ", predictive_entropy, file=logInfo)
         print("LexicalSimilarity: ", lexical_similarity, file=logInfo)
-        # print("SentBERTScore: ", sent_bertscore, file=logInfo)
+        print("SentBERTScore: ", sent_bertscore, file=logInfo)
         print("EigenScore: ", eigenIndicator, file=logInfo)
         print("EigenValue:", eigenValue, file=logInfo)
         print("EigenScore-Output: ", eigenIndicatorOutput, file=logInfo)
