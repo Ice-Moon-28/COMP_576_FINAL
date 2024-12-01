@@ -36,6 +36,7 @@ def load_tokenizer(model_name, cache_dir=None, torch_dtype=torch.float16):
     if model_name.startswith("meta-llama"):
         tokenizer = LlamaTokenizer.from_pretrained(model_name, cache_dir=cache_dir, torch_dtype=torch_dtype)
 
+        tokenizer.pad_token = tokenizer.eos_token
     return tokenizer
 
 # def load_model_and_tokenizer(model_name='opt-13b', device='cuda:2', **kwargs):

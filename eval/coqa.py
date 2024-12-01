@@ -57,7 +57,7 @@ def read_all_contexts():
     dataset = datasets.load_from_disk(_save_dataset())
     return {_['id']: _['story'] for _ in dataset}
 
-def get_dataset(tokenizer, split='validation'):
+def get_dataset(tokenizer, split='validation', truncation=False, padding=False):
     # from https://github.com/lorenzkuhn/semantic_uncertainty/blob/main/code/parse_coqa.py
     dataset = datasets.load_from_disk(_save_dataset())
     id_to_question_mapping = dict(zip(dataset['id'], dataset['question']))
@@ -65,7 +65,8 @@ def get_dataset(tokenizer, split='validation'):
     def encode_coqa(example):
         example['answer'] = example['answer']['text']
         example['prompt'] = prompt = example['story'] + ' Q: ' + example['question'] + ' A:'
-        return tokenizer(prompt, truncation=False, padding=False)
+
+        return tokenizer(prompt, truncation=truncation, padding=padding)
 
 
     dataset = dataset.map(encode_coqa, batched=False, load_from_cache_file=False)
@@ -76,7 +77,7 @@ def get_dataset(tokenizer, split='validation'):
 
 def _generate_config(tokenizer):
     if tokenizer.__class__.__name__ == 'LlamaTokenizer':
-        eos_token_id = [tokenizer.encode(_)[-1] for _ in ['.', '\n']] + [29889]  # seems to be '.' as well
+        eos_token_id = [tokenizer.encode(_)[-1] for _ in ['.', '\n']]  # seems to be '.' as well
         #eos_token_id = [tokenizer(_)['input_ids'] for _ in ['\n', ',', '.']]
     elif tokenizer.__class__.__name__ == 'GPT2Tokenizer':
         eos_token_id = [tokenizer.encode(_)[1] for _ in ['.', '\n']]
@@ -91,7 +92,7 @@ def _generate_config(tokenizer):
     # Follows Kuhn et al 2023 as Llama does not have CoQA
     question_framing_ids = [[tokenizer(eos_token)['input_ids'][1]] for eos_token in question_framing_ids]
     # question_framing_ids = [tokenizer(eos_token)['input_ids'] for eos_token in question_framing_ids]
-    return dict(eos_token_id=eos_token_id, bad_words_ids=question_framing_ids)
+    return dict(eos_token_id=eos_token_id, bad_words_ids=question_framing_ids, pad_token_id=tokenizer.pad_token_id)
 
 if __name__ == '__main__':
     import models

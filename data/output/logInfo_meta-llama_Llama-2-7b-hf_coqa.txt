@@ -1,0 +1,730 @@
+F1-score 0.2
+exact match 0.2
+precision 0.2
+recall 0.2
+{'F1-score': 0.2, 'Exact Match': 0.2, 'Precision': 0.2, 'Recall': 0.2}
+F1-score 0.5555555555555556
+exact match 1.0
+precision 0.5555555555555556
+recall 0.5555555555555556
+{'F1-score': 0.5555555555555556, 'Exact Match': 1.0, 'Precision': 0.5555555555555556, 'Recall': 0.5555555555555556}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.07142857142857142
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.07142857142857142, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.3125
+exact match 0.5
+precision 0.3125
+recall 0.3125
+{'F1-score': 0.3125, 'Exact Match': 0.5, 'Precision': 0.3125, 'Recall': 0.3125}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.8421052631578947
+exact match 1.0
+precision 0.8421052631578947
+recall 0.8421052631578947
+{'F1-score': 0.8421052631578947, 'Exact Match': 1.0, 'Precision': 0.8421052631578947, 'Recall': 0.8421052631578947}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.2857142857142857
+exact match 0.38095238095238093
+precision 0.2857142857142857
+recall 0.2857142857142857
+{'F1-score': 0.2857142857142857, 'Exact Match': 0.38095238095238093, 'Precision': 0.2857142857142857, 'Recall': 0.2857142857142857}
+F1-score 0.0
+exact match 0.058823529411764705
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.058823529411764705, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.06666666666666667
+exact match 0.2
+precision 0.06666666666666667
+recall 0.06666666666666667
+{'F1-score': 0.06666666666666667, 'Exact Match': 0.2, 'Precision': 0.06666666666666667, 'Recall': 0.06666666666666667}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.4
+exact match 1.0
+precision 0.4
+recall 0.4
+{'F1-score': 0.4, 'Exact Match': 1.0, 'Precision': 0.4, 'Recall': 0.4}
+F1-score 0.75
+exact match 1.0
+precision 0.75
+recall 0.75
+{'F1-score': 0.75, 'Exact Match': 1.0, 'Precision': 0.75, 'Recall': 0.75}
+F1-score 0.4
+exact match 1.0
+precision 0.4
+recall 0.4
+{'F1-score': 0.4, 'Exact Match': 1.0, 'Precision': 0.4, 'Recall': 0.4}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.6666666666666666
+exact match 1.0
+precision 0.6666666666666666
+recall 0.6666666666666666
+{'F1-score': 0.6666666666666666, 'Exact Match': 1.0, 'Precision': 0.6666666666666666, 'Recall': 0.6666666666666666}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.45454545454545453
+exact match 1.0
+precision 0.45454545454545453
+recall 0.45454545454545453
+{'F1-score': 0.45454545454545453, 'Exact Match': 1.0, 'Precision': 0.45454545454545453, 'Recall': 0.45454545454545453}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.025
+exact match 0.1
+precision 0.025
+recall 0.025
+{'F1-score': 0.025, 'Exact Match': 0.1, 'Precision': 0.025, 'Recall': 0.025}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.10526315789473684
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.10526315789473684, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.75
+exact match 1.0
+precision 0.75
+recall 0.75
+{'F1-score': 0.75, 'Exact Match': 1.0, 'Precision': 0.75, 'Recall': 0.75}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.02531645569620253
+exact match 0.02531645569620253
+precision 0.02531645569620253
+recall 0.02531645569620253
+{'F1-score': 0.02531645569620253, 'Exact Match': 0.02531645569620253, 'Precision': 0.02531645569620253, 'Recall': 0.02531645569620253}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.008695652173913044
+exact match 0.10434782608695652
+precision 0.008695652173913044
+recall 0.008695652173913044
+{'F1-score': 0.008695652173913044, 'Exact Match': 0.10434782608695652, 'Precision': 0.008695652173913044, 'Recall': 0.008695652173913044}
+F1-score 0.06976744186046512
+exact match 0.09302325581395349
+precision 0.06976744186046512
+recall 0.06976744186046512
+{'F1-score': 0.06976744186046512, 'Exact Match': 0.09302325581395349, 'Precision': 0.06976744186046512, 'Recall': 0.06976744186046512}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.6363636363636364
+exact match 1.0
+precision 0.6363636363636364
+recall 0.6363636363636364
+{'F1-score': 0.6363636363636364, 'Exact Match': 1.0, 'Precision': 0.6363636363636364, 'Recall': 0.6363636363636364}
+F1-score 0.0
+exact match 0.25
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.25, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.7692307692307693
+exact match 1.0
+precision 0.7692307692307693
+recall 0.7692307692307693
+{'F1-score': 0.7692307692307693, 'Exact Match': 1.0, 'Precision': 0.7692307692307693, 'Recall': 0.7692307692307693}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.3333333333333333
+exact match 0.3333333333333333
+precision 0.3333333333333333
+recall 0.3333333333333333
+{'F1-score': 0.3333333333333333, 'Exact Match': 0.3333333333333333, 'Precision': 0.3333333333333333, 'Recall': 0.3333333333333333}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.16
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.16, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.75
+exact match 1.0
+precision 0.75
+recall 0.75
+{'F1-score': 0.75, 'Exact Match': 1.0, 'Precision': 0.75, 'Recall': 0.75}
+F1-score 0.0
+exact match 0.14285714285714285
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.14285714285714285, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.11764705882352941
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.11764705882352941, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.04
+exact match 0.08
+precision 0.04
+recall 0.04
+{'F1-score': 0.04, 'Exact Match': 0.08, 'Precision': 0.04, 'Recall': 0.04}
+F1-score 0.0
+exact match 0.15384615384615385
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.15384615384615385, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.09523809523809523
+exact match 0.19047619047619047
+precision 0.09523809523809523
+recall 0.09523809523809523
+{'F1-score': 0.09523809523809523, 'Exact Match': 0.19047619047619047, 'Precision': 0.09523809523809523, 'Recall': 0.09523809523809523}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0625
+exact match 0.1875
+precision 0.0625
+recall 0.0625
+{'F1-score': 0.0625, 'Exact Match': 0.1875, 'Precision': 0.0625, 'Recall': 0.0625}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.047619047619047616
+exact match 0.047619047619047616
+precision 0.047619047619047616
+recall 0.047619047619047616
+{'F1-score': 0.047619047619047616, 'Exact Match': 0.047619047619047616, 'Precision': 0.047619047619047616, 'Recall': 0.047619047619047616}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.9
+exact match 1.0
+precision 0.9
+recall 0.9
+{'F1-score': 0.9, 'Exact Match': 1.0, 'Precision': 0.9, 'Recall': 0.9}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.06666666666666667
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.06666666666666667, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.1111111111111111
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.1111111111111111, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.08333333333333333
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.08333333333333333, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.09090909090909091
+exact match 0.18181818181818182
+precision 0.09090909090909091
+recall 0.09090909090909091
+{'F1-score': 0.09090909090909091, 'Exact Match': 0.18181818181818182, 'Precision': 0.09090909090909091, 'Recall': 0.09090909090909091}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.875
+exact match 1.0
+precision 0.875
+recall 0.875
+{'F1-score': 0.875, 'Exact Match': 1.0, 'Precision': 0.875, 'Recall': 0.875}
+F1-score 0.8571428571428571
+exact match 1.0
+precision 0.8571428571428571
+recall 0.8571428571428571
+{'F1-score': 0.8571428571428571, 'Exact Match': 1.0, 'Precision': 0.8571428571428571, 'Recall': 0.8571428571428571}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.8461538461538461
+exact match 1.0
+precision 0.8461538461538461
+recall 0.8461538461538461
+{'F1-score': 0.8461538461538461, 'Exact Match': 1.0, 'Precision': 0.8461538461538461, 'Recall': 0.8461538461538461}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.07142857142857142
+exact match 0.21428571428571427
+precision 0.07142857142857142
+recall 0.07142857142857142
+{'F1-score': 0.07142857142857142, 'Exact Match': 0.21428571428571427, 'Precision': 0.07142857142857142, 'Recall': 0.07142857142857142}
+F1-score 0.030303030303030304
+exact match 0.12121212121212122
+precision 0.030303030303030304
+recall 0.030303030303030304
+{'F1-score': 0.030303030303030304, 'Exact Match': 0.12121212121212122, 'Precision': 0.030303030303030304, 'Recall': 0.030303030303030304}
+F1-score 0.0
+exact match 0.14285714285714285
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.14285714285714285, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.1111111111111111
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.1111111111111111, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.9047619047619048
+exact match 1.0
+precision 0.9047619047619048
+recall 0.9047619047619048
+{'F1-score': 0.9047619047619048, 'Exact Match': 1.0, 'Precision': 0.9047619047619048, 'Recall': 0.9047619047619048}
+F1-score 0.11475409836065574
+exact match 0.16393442622950818
+precision 0.11475409836065574
+recall 0.11475409836065574
+{'F1-score': 0.11475409836065574, 'Exact Match': 0.16393442622950818, 'Precision': 0.11475409836065574, 'Recall': 0.11475409836065574}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.08163265306122448
+exact match 0.1836734693877551
+precision 0.08163265306122448
+recall 0.08163265306122448
+{'F1-score': 0.08163265306122448, 'Exact Match': 0.1836734693877551, 'Precision': 0.08163265306122448, 'Recall': 0.08163265306122448}
+F1-score 0.0
+exact match 0.05263157894736842
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.05263157894736842, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.5
+exact match 1.0
+precision 0.5
+recall 0.5
+{'F1-score': 0.5, 'Exact Match': 1.0, 'Precision': 0.5, 'Recall': 0.5}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.07142857142857142
+exact match 0.14285714285714285
+precision 0.07142857142857142
+recall 0.07142857142857142
+{'F1-score': 0.07142857142857142, 'Exact Match': 0.14285714285714285, 'Precision': 0.07142857142857142, 'Recall': 0.07142857142857142}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.9166666666666666
+exact match 1.0
+precision 0.9166666666666666
+recall 0.9166666666666666
+{'F1-score': 0.9166666666666666, 'Exact Match': 1.0, 'Precision': 0.9166666666666666, 'Recall': 0.9166666666666666}
+F1-score 0.9411764705882353
+exact match 1.0
+precision 0.9411764705882353
+recall 0.9411764705882353
+{'F1-score': 0.9411764705882353, 'Exact Match': 1.0, 'Precision': 0.9411764705882353, 'Recall': 0.9411764705882353}
+F1-score 0.0
+exact match 0.125
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.125, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.09090909090909091
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.09090909090909091, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.05357142857142857
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.05357142857142857, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.08571428571428572
+exact match 0.14285714285714285
+precision 0.08571428571428572
+recall 0.08571428571428572
+{'F1-score': 0.08571428571428572, 'Exact Match': 0.14285714285714285, 'Precision': 0.08571428571428572, 'Recall': 0.08571428571428572}
+F1-score 0.8333333333333334
+exact match 1.0
+precision 0.8333333333333334
+recall 0.8333333333333334
+{'F1-score': 0.8333333333333334, 'Exact Match': 1.0, 'Precision': 0.8333333333333334, 'Recall': 0.8333333333333334}
+F1-score 0.041666666666666664
+exact match 0.041666666666666664
+precision 0.041666666666666664
+recall 0.041666666666666664
+{'F1-score': 0.041666666666666664, 'Exact Match': 0.041666666666666664, 'Precision': 0.041666666666666664, 'Recall': 0.041666666666666664}
+F1-score 0.8333333333333334
+exact match 1.0
+precision 0.8333333333333334
+recall 0.8333333333333334
+{'F1-score': 0.8333333333333334, 'Exact Match': 1.0, 'Precision': 0.8333333333333334, 'Recall': 0.8333333333333334}
+F1-score 0.0
+exact match 0.041666666666666664
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.041666666666666664, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.1
+exact match 0.1
+precision 0.1
+recall 0.1
+{'F1-score': 0.1, 'Exact Match': 0.1, 'Precision': 0.1, 'Recall': 0.1}
+F1-score 0.125
+exact match 0.125
+precision 0.125
+recall 0.125
+{'F1-score': 0.125, 'Exact Match': 0.125, 'Precision': 0.125, 'Recall': 0.125}
+F1-score 0.05714285714285714
+exact match 0.2
+precision 0.05714285714285714
+recall 0.05714285714285714
+{'F1-score': 0.05714285714285714, 'Exact Match': 0.2, 'Precision': 0.05714285714285714, 'Recall': 0.05714285714285714}
+F1-score 0.11363636363636363
+exact match 0.22727272727272727
+precision 0.11363636363636363
+recall 0.11363636363636363
+{'F1-score': 0.11363636363636363, 'Exact Match': 0.22727272727272727, 'Precision': 0.11363636363636363, 'Recall': 0.11363636363636363}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.625
+exact match 0.875
+precision 0.625
+recall 0.625
+{'F1-score': 0.625, 'Exact Match': 0.875, 'Precision': 0.625, 'Recall': 0.625}
+F1-score 0.043478260869565216
+exact match 0.057971014492753624
+precision 0.043478260869565216
+recall 0.043478260869565216
+{'F1-score': 0.043478260869565216, 'Exact Match': 0.057971014492753624, 'Precision': 0.043478260869565216, 'Recall': 0.043478260869565216}
+F1-score 0.7692307692307693
+exact match 1.0
+precision 0.7692307692307693
+recall 0.7692307692307693
+{'F1-score': 0.7692307692307693, 'Exact Match': 1.0, 'Precision': 0.7692307692307693, 'Recall': 0.7692307692307693}
+F1-score 0.6666666666666666
+exact match 1.0
+precision 0.6666666666666666
+recall 0.6666666666666666
+{'F1-score': 0.6666666666666666, 'Exact Match': 1.0, 'Precision': 0.6666666666666666, 'Recall': 0.6666666666666666}
+F1-score 0.05263157894736842
+exact match 0.21052631578947367
+precision 0.05263157894736842
+recall 0.05263157894736842
+{'F1-score': 0.05263157894736842, 'Exact Match': 0.21052631578947367, 'Precision': 0.05263157894736842, 'Recall': 0.05263157894736842}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.07692307692307693
+exact match 0.23076923076923078
+precision 0.07692307692307693
+recall 0.07692307692307693
+{'F1-score': 0.07692307692307693, 'Exact Match': 0.23076923076923078, 'Precision': 0.07692307692307693, 'Recall': 0.07692307692307693}
+F1-score 0.0
+exact match 0.09090909090909091
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.09090909090909091, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.3333333333333333
+exact match 0.3333333333333333
+precision 0.3333333333333333
+recall 0.3333333333333333
+{'F1-score': 0.3333333333333333, 'Exact Match': 0.3333333333333333, 'Precision': 0.3333333333333333, 'Recall': 0.3333333333333333}
+F1-score 0.0
+exact match 0.07142857142857142
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.07142857142857142, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 1.0
+exact match 1.0
+precision 1.0
+recall 1.0
+{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.9090909090909091
+exact match 1.0
+precision 0.9090909090909091
+recall 0.9090909090909091
+{'F1-score': 0.9090909090909091, 'Exact Match': 1.0, 'Precision': 0.9090909090909091, 'Recall': 0.9090909090909091}
+F1-score 0.14285714285714285
+exact match 0.2857142857142857
+precision 0.14285714285714285
+recall 0.14285714285714285
+{'F1-score': 0.14285714285714285, 'Exact Match': 0.2857142857142857, 'Precision': 0.14285714285714285, 'Recall': 0.14285714285714285}
+F1-score 0.02631578947368421
+exact match 0.07894736842105263
+precision 0.02631578947368421
+recall 0.02631578947368421
+{'F1-score': 0.02631578947368421, 'Exact Match': 0.07894736842105263, 'Precision': 0.02631578947368421, 'Recall': 0.02631578947368421}
+F1-score 0.0
+exact match 0.0
+precision 0.0
+recall 0.0
+{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
+F1-score 0.041666666666666664
+exact match 0.08333333333333333
+precision 0.041666666666666664
+recall 0.041666666666666664
+{'F1-score': 0.041666666666666664, 'Exact Match': 0.08333333333333333, 'Precision': 0.041666666666666664, 'Recall': 0.041666666666666664}
+F1-score 0.11764705882352941
+exact match 0.23529411764705882
+precision 0.11764705882352941
+recall 0.11764705882352941
+{'F1-score': 0.11764705882352941, 'Exact Match': 0.23529411764705882, 'Precision': 0.11764705882352941, 'Recall': 0.11764705882352941}
+F1-score 0.038461538461538464
+exact match 0.038461538461538464
+precision 0.038461538461538464
+recall 0.038461538461538464
+{'F1-score': 0.038461538461538464, 'Exact Match': 0.038461538461538464, 'Precision': 0.038461538461538464, 'Recall': 0.038461538461538464}
+F1-score 0.9285714285714286
+exact match 1.0
+precision 0.9285714285714286
+recall 0.9285714285714286
+{'F1-score': 0.9285714285714286, 'Exact Match': 1.0, 'Precision': 0.9285714285714286, 'Recall': 0.9285714285714286}
+F1-score 0.05555555555555555
+exact match 0.1111111111111111
+precision 0.05555555555555555
+recall 0.05555555555555555
+{'F1-score': 0.05555555555555555, 'Exact Match': 0.1111111111111111, 'Precision': 0.05555555555555555, 'Recall': 0.05555555555555555}
+F1-score 0.5076923076923077
+exact match 0.6307692307692307
+precision 0.5076923076923077
+recall 0.5076923076923077
+{'F1-score': 0.5076923076923077, 'Exact Match': 0.6307692307692307, 'Precision': 0.5076923076923077, 'Recall': 0.5076923076923077}
+F1-score 0.7142857142857143
+exact match 1.0
+precision 0.7142857142857143
+recall 0.7142857142857143
+{'F1-score': 0.7142857142857143, 'Exact Match': 1.0, 'Precision': 0.7142857142857143, 'Recall': 0.7142857142857143}
+F1-score 0.05555555555555555
+exact match 0.1111111111111111
+precision 0.05555555555555555
+recall 0.05555555555555555
+{'F1-score': 0.05555555555555555, 'Exact Match': 0.1111111111111111, 'Precision': 0.05555555555555555, 'Recall': 0.05555555555555555}
+F1-score 0.6666666666666666
+exact match 0.6666666666666666
+precision 0.6666666666666666
+recall 0.6666666666666666
+{'F1-score': 0.6666666666666666, 'Exact Match': 0.6666666666666666, 'Precision': 0.6666666666666666, 'Recall': 0.6666666666666666}
+F1-score 0.23076923076923078
+exact match 0.3076923076923077
+precision 0.23076923076923078
+recall 0.23076923076923078
+{'F1-score': 0.23076923076923078, 'Exact Match': 0.3076923076923077, 'Precision': 0.23076923076923078, 'Recall': 0.23076923076923078}
+F1-score 0.7333333333333333
+exact match 1.0
+precision 0.7333333333333333
+recall 0.7333333333333333
+{'F1-score': 0.7333333333333333, 'Exact Match': 1.0, 'Precision': 0.7333333333333333, 'Recall': 0.7333333333333333}
