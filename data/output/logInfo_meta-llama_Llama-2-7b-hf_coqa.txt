@@ -1,730 +1,678 @@
-F1-score 0.2
-exact match 0.2
-precision 0.2
-recall 0.2
-{'F1-score': 0.2, 'Exact Match': 0.2, 'Precision': 0.2, 'Recall': 0.2}
-F1-score 0.5555555555555556
-exact match 1.0
-precision 0.5555555555555556
-recall 0.5555555555555556
-{'F1-score': 0.5555555555555556, 'Exact Match': 1.0, 'Precision': 0.5555555555555556, 'Recall': 0.5555555555555556}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.07142857142857142
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.07142857142857142, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.3125
-exact match 0.5
-precision 0.3125
-recall 0.3125
-{'F1-score': 0.3125, 'Exact Match': 0.5, 'Precision': 0.3125, 'Recall': 0.3125}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.8421052631578947
-exact match 1.0
-precision 0.8421052631578947
-recall 0.8421052631578947
-{'F1-score': 0.8421052631578947, 'Exact Match': 1.0, 'Precision': 0.8421052631578947, 'Recall': 0.8421052631578947}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.2857142857142857
-exact match 0.38095238095238093
-precision 0.2857142857142857
-recall 0.2857142857142857
-{'F1-score': 0.2857142857142857, 'Exact Match': 0.38095238095238093, 'Precision': 0.2857142857142857, 'Recall': 0.2857142857142857}
-F1-score 0.0
-exact match 0.058823529411764705
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.058823529411764705, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.06666666666666667
-exact match 0.2
-precision 0.06666666666666667
-recall 0.06666666666666667
-{'F1-score': 0.06666666666666667, 'Exact Match': 0.2, 'Precision': 0.06666666666666667, 'Recall': 0.06666666666666667}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.4
-exact match 1.0
-precision 0.4
-recall 0.4
-{'F1-score': 0.4, 'Exact Match': 1.0, 'Precision': 0.4, 'Recall': 0.4}
-F1-score 0.75
-exact match 1.0
-precision 0.75
-recall 0.75
-{'F1-score': 0.75, 'Exact Match': 1.0, 'Precision': 0.75, 'Recall': 0.75}
-F1-score 0.4
-exact match 1.0
-precision 0.4
-recall 0.4
-{'F1-score': 0.4, 'Exact Match': 1.0, 'Precision': 0.4, 'Recall': 0.4}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.6666666666666666
-exact match 1.0
-precision 0.6666666666666666
-recall 0.6666666666666666
-{'F1-score': 0.6666666666666666, 'Exact Match': 1.0, 'Precision': 0.6666666666666666, 'Recall': 0.6666666666666666}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.45454545454545453
-exact match 1.0
-precision 0.45454545454545453
-recall 0.45454545454545453
-{'F1-score': 0.45454545454545453, 'Exact Match': 1.0, 'Precision': 0.45454545454545453, 'Recall': 0.45454545454545453}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.025
-exact match 0.1
-precision 0.025
-recall 0.025
-{'F1-score': 0.025, 'Exact Match': 0.1, 'Precision': 0.025, 'Recall': 0.025}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.10526315789473684
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.10526315789473684, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.75
-exact match 1.0
-precision 0.75
-recall 0.75
-{'F1-score': 0.75, 'Exact Match': 1.0, 'Precision': 0.75, 'Recall': 0.75}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.02531645569620253
-exact match 0.02531645569620253
-precision 0.02531645569620253
-recall 0.02531645569620253
-{'F1-score': 0.02531645569620253, 'Exact Match': 0.02531645569620253, 'Precision': 0.02531645569620253, 'Recall': 0.02531645569620253}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.008695652173913044
-exact match 0.10434782608695652
-precision 0.008695652173913044
-recall 0.008695652173913044
-{'F1-score': 0.008695652173913044, 'Exact Match': 0.10434782608695652, 'Precision': 0.008695652173913044, 'Recall': 0.008695652173913044}
-F1-score 0.06976744186046512
-exact match 0.09302325581395349
-precision 0.06976744186046512
-recall 0.06976744186046512
-{'F1-score': 0.06976744186046512, 'Exact Match': 0.09302325581395349, 'Precision': 0.06976744186046512, 'Recall': 0.06976744186046512}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.6363636363636364
-exact match 1.0
-precision 0.6363636363636364
-recall 0.6363636363636364
-{'F1-score': 0.6363636363636364, 'Exact Match': 1.0, 'Precision': 0.6363636363636364, 'Recall': 0.6363636363636364}
-F1-score 0.0
-exact match 0.25
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.25, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.7692307692307693
-exact match 1.0
-precision 0.7692307692307693
-recall 0.7692307692307693
-{'F1-score': 0.7692307692307693, 'Exact Match': 1.0, 'Precision': 0.7692307692307693, 'Recall': 0.7692307692307693}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.3333333333333333
-exact match 0.3333333333333333
-precision 0.3333333333333333
-recall 0.3333333333333333
-{'F1-score': 0.3333333333333333, 'Exact Match': 0.3333333333333333, 'Precision': 0.3333333333333333, 'Recall': 0.3333333333333333}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.16
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.16, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.75
-exact match 1.0
-precision 0.75
-recall 0.75
-{'F1-score': 0.75, 'Exact Match': 1.0, 'Precision': 0.75, 'Recall': 0.75}
-F1-score 0.0
-exact match 0.14285714285714285
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.14285714285714285, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.11764705882352941
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.11764705882352941, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.04
-exact match 0.08
-precision 0.04
-recall 0.04
-{'F1-score': 0.04, 'Exact Match': 0.08, 'Precision': 0.04, 'Recall': 0.04}
-F1-score 0.0
-exact match 0.15384615384615385
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.15384615384615385, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.09523809523809523
-exact match 0.19047619047619047
-precision 0.09523809523809523
-recall 0.09523809523809523
-{'F1-score': 0.09523809523809523, 'Exact Match': 0.19047619047619047, 'Precision': 0.09523809523809523, 'Recall': 0.09523809523809523}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0625
-exact match 0.1875
-precision 0.0625
-recall 0.0625
-{'F1-score': 0.0625, 'Exact Match': 0.1875, 'Precision': 0.0625, 'Recall': 0.0625}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.047619047619047616
-exact match 0.047619047619047616
-precision 0.047619047619047616
-recall 0.047619047619047616
-{'F1-score': 0.047619047619047616, 'Exact Match': 0.047619047619047616, 'Precision': 0.047619047619047616, 'Recall': 0.047619047619047616}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.9
-exact match 1.0
-precision 0.9
-recall 0.9
-{'F1-score': 0.9, 'Exact Match': 1.0, 'Precision': 0.9, 'Recall': 0.9}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.06666666666666667
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.06666666666666667, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.1111111111111111
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.1111111111111111, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.08333333333333333
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.08333333333333333, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.09090909090909091
-exact match 0.18181818181818182
-precision 0.09090909090909091
-recall 0.09090909090909091
-{'F1-score': 0.09090909090909091, 'Exact Match': 0.18181818181818182, 'Precision': 0.09090909090909091, 'Recall': 0.09090909090909091}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.875
-exact match 1.0
-precision 0.875
-recall 0.875
-{'F1-score': 0.875, 'Exact Match': 1.0, 'Precision': 0.875, 'Recall': 0.875}
-F1-score 0.8571428571428571
-exact match 1.0
-precision 0.8571428571428571
-recall 0.8571428571428571
-{'F1-score': 0.8571428571428571, 'Exact Match': 1.0, 'Precision': 0.8571428571428571, 'Recall': 0.8571428571428571}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.8461538461538461
-exact match 1.0
-precision 0.8461538461538461
-recall 0.8461538461538461
-{'F1-score': 0.8461538461538461, 'Exact Match': 1.0, 'Precision': 0.8461538461538461, 'Recall': 0.8461538461538461}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.07142857142857142
-exact match 0.21428571428571427
-precision 0.07142857142857142
-recall 0.07142857142857142
-{'F1-score': 0.07142857142857142, 'Exact Match': 0.21428571428571427, 'Precision': 0.07142857142857142, 'Recall': 0.07142857142857142}
-F1-score 0.030303030303030304
-exact match 0.12121212121212122
-precision 0.030303030303030304
-recall 0.030303030303030304
-{'F1-score': 0.030303030303030304, 'Exact Match': 0.12121212121212122, 'Precision': 0.030303030303030304, 'Recall': 0.030303030303030304}
-F1-score 0.0
-exact match 0.14285714285714285
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.14285714285714285, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.1111111111111111
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.1111111111111111, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.9047619047619048
-exact match 1.0
-precision 0.9047619047619048
-recall 0.9047619047619048
-{'F1-score': 0.9047619047619048, 'Exact Match': 1.0, 'Precision': 0.9047619047619048, 'Recall': 0.9047619047619048}
-F1-score 0.11475409836065574
-exact match 0.16393442622950818
-precision 0.11475409836065574
-recall 0.11475409836065574
-{'F1-score': 0.11475409836065574, 'Exact Match': 0.16393442622950818, 'Precision': 0.11475409836065574, 'Recall': 0.11475409836065574}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.08163265306122448
-exact match 0.1836734693877551
-precision 0.08163265306122448
-recall 0.08163265306122448
-{'F1-score': 0.08163265306122448, 'Exact Match': 0.1836734693877551, 'Precision': 0.08163265306122448, 'Recall': 0.08163265306122448}
-F1-score 0.0
-exact match 0.05263157894736842
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.05263157894736842, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.5
-exact match 1.0
-precision 0.5
-recall 0.5
-{'F1-score': 0.5, 'Exact Match': 1.0, 'Precision': 0.5, 'Recall': 0.5}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.07142857142857142
-exact match 0.14285714285714285
-precision 0.07142857142857142
-recall 0.07142857142857142
-{'F1-score': 0.07142857142857142, 'Exact Match': 0.14285714285714285, 'Precision': 0.07142857142857142, 'Recall': 0.07142857142857142}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.9166666666666666
-exact match 1.0
-precision 0.9166666666666666
-recall 0.9166666666666666
-{'F1-score': 0.9166666666666666, 'Exact Match': 1.0, 'Precision': 0.9166666666666666, 'Recall': 0.9166666666666666}
-F1-score 0.9411764705882353
-exact match 1.0
-precision 0.9411764705882353
-recall 0.9411764705882353
-{'F1-score': 0.9411764705882353, 'Exact Match': 1.0, 'Precision': 0.9411764705882353, 'Recall': 0.9411764705882353}
-F1-score 0.0
-exact match 0.125
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.125, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.09090909090909091
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.09090909090909091, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.05357142857142857
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.05357142857142857, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.08571428571428572
-exact match 0.14285714285714285
-precision 0.08571428571428572
-recall 0.08571428571428572
-{'F1-score': 0.08571428571428572, 'Exact Match': 0.14285714285714285, 'Precision': 0.08571428571428572, 'Recall': 0.08571428571428572}
-F1-score 0.8333333333333334
-exact match 1.0
-precision 0.8333333333333334
-recall 0.8333333333333334
-{'F1-score': 0.8333333333333334, 'Exact Match': 1.0, 'Precision': 0.8333333333333334, 'Recall': 0.8333333333333334}
-F1-score 0.041666666666666664
-exact match 0.041666666666666664
-precision 0.041666666666666664
-recall 0.041666666666666664
-{'F1-score': 0.041666666666666664, 'Exact Match': 0.041666666666666664, 'Precision': 0.041666666666666664, 'Recall': 0.041666666666666664}
-F1-score 0.8333333333333334
-exact match 1.0
-precision 0.8333333333333334
-recall 0.8333333333333334
-{'F1-score': 0.8333333333333334, 'Exact Match': 1.0, 'Precision': 0.8333333333333334, 'Recall': 0.8333333333333334}
-F1-score 0.0
-exact match 0.041666666666666664
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.041666666666666664, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.1
-exact match 0.1
-precision 0.1
-recall 0.1
-{'F1-score': 0.1, 'Exact Match': 0.1, 'Precision': 0.1, 'Recall': 0.1}
-F1-score 0.125
-exact match 0.125
-precision 0.125
-recall 0.125
-{'F1-score': 0.125, 'Exact Match': 0.125, 'Precision': 0.125, 'Recall': 0.125}
-F1-score 0.05714285714285714
-exact match 0.2
-precision 0.05714285714285714
-recall 0.05714285714285714
-{'F1-score': 0.05714285714285714, 'Exact Match': 0.2, 'Precision': 0.05714285714285714, 'Recall': 0.05714285714285714}
-F1-score 0.11363636363636363
-exact match 0.22727272727272727
-precision 0.11363636363636363
-recall 0.11363636363636363
-{'F1-score': 0.11363636363636363, 'Exact Match': 0.22727272727272727, 'Precision': 0.11363636363636363, 'Recall': 0.11363636363636363}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.625
-exact match 0.875
-precision 0.625
-recall 0.625
-{'F1-score': 0.625, 'Exact Match': 0.875, 'Precision': 0.625, 'Recall': 0.625}
-F1-score 0.043478260869565216
-exact match 0.057971014492753624
-precision 0.043478260869565216
-recall 0.043478260869565216
-{'F1-score': 0.043478260869565216, 'Exact Match': 0.057971014492753624, 'Precision': 0.043478260869565216, 'Recall': 0.043478260869565216}
-F1-score 0.7692307692307693
-exact match 1.0
-precision 0.7692307692307693
-recall 0.7692307692307693
-{'F1-score': 0.7692307692307693, 'Exact Match': 1.0, 'Precision': 0.7692307692307693, 'Recall': 0.7692307692307693}
-F1-score 0.6666666666666666
-exact match 1.0
-precision 0.6666666666666666
-recall 0.6666666666666666
-{'F1-score': 0.6666666666666666, 'Exact Match': 1.0, 'Precision': 0.6666666666666666, 'Recall': 0.6666666666666666}
-F1-score 0.05263157894736842
-exact match 0.21052631578947367
-precision 0.05263157894736842
-recall 0.05263157894736842
-{'F1-score': 0.05263157894736842, 'Exact Match': 0.21052631578947367, 'Precision': 0.05263157894736842, 'Recall': 0.05263157894736842}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.07692307692307693
-exact match 0.23076923076923078
-precision 0.07692307692307693
-recall 0.07692307692307693
-{'F1-score': 0.07692307692307693, 'Exact Match': 0.23076923076923078, 'Precision': 0.07692307692307693, 'Recall': 0.07692307692307693}
-F1-score 0.0
-exact match 0.09090909090909091
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.09090909090909091, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.3333333333333333
-exact match 0.3333333333333333
-precision 0.3333333333333333
-recall 0.3333333333333333
-{'F1-score': 0.3333333333333333, 'Exact Match': 0.3333333333333333, 'Precision': 0.3333333333333333, 'Recall': 0.3333333333333333}
-F1-score 0.0
-exact match 0.07142857142857142
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.07142857142857142, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 1.0
-exact match 1.0
-precision 1.0
-recall 1.0
-{'F1-score': 1.0, 'Exact Match': 1.0, 'Precision': 1.0, 'Recall': 1.0}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.9090909090909091
-exact match 1.0
-precision 0.9090909090909091
-recall 0.9090909090909091
-{'F1-score': 0.9090909090909091, 'Exact Match': 1.0, 'Precision': 0.9090909090909091, 'Recall': 0.9090909090909091}
-F1-score 0.14285714285714285
-exact match 0.2857142857142857
-precision 0.14285714285714285
-recall 0.14285714285714285
-{'F1-score': 0.14285714285714285, 'Exact Match': 0.2857142857142857, 'Precision': 0.14285714285714285, 'Recall': 0.14285714285714285}
-F1-score 0.02631578947368421
-exact match 0.07894736842105263
-precision 0.02631578947368421
-recall 0.02631578947368421
-{'F1-score': 0.02631578947368421, 'Exact Match': 0.07894736842105263, 'Precision': 0.02631578947368421, 'Recall': 0.02631578947368421}
-F1-score 0.0
-exact match 0.0
-precision 0.0
-recall 0.0
-{'F1-score': 0.0, 'Exact Match': 0.0, 'Precision': 0.0, 'Recall': 0.0}
-F1-score 0.041666666666666664
-exact match 0.08333333333333333
-precision 0.041666666666666664
-recall 0.041666666666666664
-{'F1-score': 0.041666666666666664, 'Exact Match': 0.08333333333333333, 'Precision': 0.041666666666666664, 'Recall': 0.041666666666666664}
-F1-score 0.11764705882352941
-exact match 0.23529411764705882
-precision 0.11764705882352941
-recall 0.11764705882352941
-{'F1-score': 0.11764705882352941, 'Exact Match': 0.23529411764705882, 'Precision': 0.11764705882352941, 'Recall': 0.11764705882352941}
-F1-score 0.038461538461538464
-exact match 0.038461538461538464
-precision 0.038461538461538464
-recall 0.038461538461538464
-{'F1-score': 0.038461538461538464, 'Exact Match': 0.038461538461538464, 'Precision': 0.038461538461538464, 'Recall': 0.038461538461538464}
-F1-score 0.9285714285714286
-exact match 1.0
-precision 0.9285714285714286
-recall 0.9285714285714286
-{'F1-score': 0.9285714285714286, 'Exact Match': 1.0, 'Precision': 0.9285714285714286, 'Recall': 0.9285714285714286}
-F1-score 0.05555555555555555
-exact match 0.1111111111111111
-precision 0.05555555555555555
-recall 0.05555555555555555
-{'F1-score': 0.05555555555555555, 'Exact Match': 0.1111111111111111, 'Precision': 0.05555555555555555, 'Recall': 0.05555555555555555}
-F1-score 0.5076923076923077
-exact match 0.6307692307692307
-precision 0.5076923076923077
-recall 0.5076923076923077
-{'F1-score': 0.5076923076923077, 'Exact Match': 0.6307692307692307, 'Precision': 0.5076923076923077, 'Recall': 0.5076923076923077}
-F1-score 0.7142857142857143
-exact match 1.0
-precision 0.7142857142857143
-recall 0.7142857142857143
-{'F1-score': 0.7142857142857143, 'Exact Match': 1.0, 'Precision': 0.7142857142857143, 'Recall': 0.7142857142857143}
-F1-score 0.05555555555555555
-exact match 0.1111111111111111
-precision 0.05555555555555555
-recall 0.05555555555555555
-{'F1-score': 0.05555555555555555, 'Exact Match': 0.1111111111111111, 'Precision': 0.05555555555555555, 'Recall': 0.05555555555555555}
-F1-score 0.6666666666666666
-exact match 0.6666666666666666
-precision 0.6666666666666666
-recall 0.6666666666666666
-{'F1-score': 0.6666666666666666, 'Exact Match': 0.6666666666666666, 'Precision': 0.6666666666666666, 'Recall': 0.6666666666666666}
-F1-score 0.23076923076923078
-exact match 0.3076923076923077
-precision 0.23076923076923078
-recall 0.23076923076923078
-{'F1-score': 0.23076923076923078, 'Exact Match': 0.3076923076923077, 'Precision': 0.23076923076923078, 'Recall': 0.23076923076923078}
-F1-score 0.7333333333333333
-exact match 1.0
-precision 0.7333333333333333
-recall 0.7333333333333333
-{'F1-score': 0.7333333333333333, 'Exact Match': 1.0, 'Precision': 0.7333333333333333, 'Recall': 0.7333333333333333}
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: What color was Cotton? A:
+Question: What color was Cotton?
+GTAns: white
+BestAns: Cotton was white.
+
+BatchGenerations: ['Cotton was white.\n', 'White, of course!\n', 'White!', 'Cotton was white.\n', 'Cotton was white.\n', 'White.\n', 'She was white.', 'Cotton was white.', 'White.', 'Cotton was white.\n']
+Perplexity: 0.6888897879153807
+Energy: -18.66805664698283
+NormalizedEntropy:  0.35493200295604765
+LexicalSimilarity:  0.6407407407407408
+SentBERTScore:  1.0
+EigenScore:  -1.889833931612231
+EigenValue: [1.33455549e+00 5.27196536e-01 5.29812067e-02 3.83554623e-02
+ 1.41422008e-02 6.25007792e-03 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.8495579571397613
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: Where did she live? A:
+Question: Where did she live?
+GTAns: in a barn
+BestAns: In a barn.
+
+BatchGenerations: ['The barn.\n', 'In a barn near a farm house.', 'In a barn.\n', 'In a barn.', 'In the barn.\n', 'With her family.', 'In the barn.\n', 'In a barn.\n', 'In the barn!\n', 'In a barn.']
+Perplexity: 0.6286124047493554
+Energy: -18.92548720041911
+NormalizedEntropy:  0.16354394222121865
+LexicalSimilarity:  0.5516049382716051
+SentBERTScore:  1.0
+EigenScore:  -1.6832155741382309
+EigenValue: [1.16960584e+00 4.53172213e-01 1.69620038e-01 1.16008371e-01
+ 3.80793018e-02 1.15221787e-02 3.21626180e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.6647208006887468
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: Did she live alone? A:
+Question: Did she live alone?
+GTAns: no
+BestAns: No, she lived with her mommy and her sisters.
+
+BatchGenerations: ['Yes!', 'No. She lived with her mommy and her sisters.', 'No, she lived with her mommy and sisters.', 'No, she lived with her mommy and sisters.\n', 'No, she lived with her mommy and her sisters.\n', 'Yes, she did.', 'No, she lived with her mommy and her sisters.', 'No, she lived with her mommy and sisters in the barn.\n', 'No, she lived with her mommy and her sisters.\n', 'No, she lived with her mommy and her sisters and she loved them all very much.']
+Perplexity: 0.5128521679673499
+Energy: -20.459280695234025
+NormalizedEntropy:  0.20045915208023465
+LexicalSimilarity:  0.5777327010667225
+SentBERTScore:  1.0
+EigenScore:  -1.5376582969716814
+EigenValue: [0.99122879 0.44129335 0.27431413 0.14444125 0.09621753 0.00977943
+ 0.00793244 0.00189164 0.00171697 0.001     ]
+EigenScore-Output:  -1.4095405587169916
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: Who did she live with? A:
+Question: Who did she live with?
+GTAns: with her mommy and 5 sisters
+BestAns: She lived with her mommy and her sisters.
+
+BatchGenerations: ['Her sisters and mommy.\n', 'Cotton lived with her mommy and sisters.', 'The farmer.\n', "The farmer's horses.\n", 'She lived with her mommy and her sisters.', 'With her mommy and sisters.\n', 'She lived with her mommy and her sisters.\n', 'The farmer and his wife.\n', 'She lived with her mommy and her sisters.\n', 'She lived with her mommy and her sisters.\n']
+Perplexity: 0.4788154861267168
+Energy: -20.032200892766316
+NormalizedEntropy:  0.23162627312205492
+LexicalSimilarity:  0.40307741641074973
+SentBERTScore:  1.0
+EigenScore:  -1.795092128810193
+EigenValue: [1.40110474e+00 3.04273686e-01 5.84542366e-02 1.26670569e-02
+ 1.08057143e-02 9.13508106e-03 8.48565962e-03 4.23448407e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.3440730984968992
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: What color were her sisters? A:
+Question: What color were her sisters?
+GTAns: orange and white
+BestAns: Orange!
+
+BatchGenerations: ['Orange with white tiger stripes.', 'Orange and white.', 'They were all orange with beautiful white tiger stripes.\n', 'Orange and white!\n', 'They were all orange with white tiger stripes.\n', 'Orange.\n', 'They were all orange with white tiger stripes.\n', 'Orange.\n', 'Orange.', 'They were orange with white tiger stripes!']
+Perplexity: 1.0987815501547653
+Energy: -17.588364601135254
+NormalizedEntropy:  0.3121717120387507
+LexicalSimilarity:  0.5181032366326483
+SentBERTScore:  1.0
+EigenScore:  -1.5462644948790825
+EigenValue: [1.14780848e+00 3.90836052e-01 1.40229091e-01 9.71636336e-02
+ 4.84008349e-02 3.53265269e-02 1.09048595e-02 3.02395462e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.4438190136674969
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: Was Cotton happy that she looked different than the rest of her family? A:
+Question: Was Cotton happy that she looked different than the rest of her family?
+GTAns: no
+BestAns: Yes, she was.
+
+BatchGenerations: ['Yes!', 'Yes, she was.\n', 'Yes.\n', 'Yes, she was.\n', 'Yes.', 'Yes.\n', 'Yes, she was.', 'Yes, she was.', 'Yes, she was.\n', 'Yes, she was.']
+Perplexity: 0.7617627506873393
+Energy: -19.67061710357666
+NormalizedEntropy:  0.3353309946400779
+LexicalSimilarity:  0.7333333333333333
+SentBERTScore:  1.0
+EigenScore:  -2.031416350130917
+EigenValue: [1.43553472e+00 3.41973284e-01 2.83095421e-01 3.49058144e-02
+ 1.00000000e-03 1.00000000e-03 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -2.1558344141446306
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: What did she do to try to make herself the same color as her sisters? A:
+Question: What did she do to try to make herself the same color as her sisters?
+GTAns: she painted herself
+BestAns: She painted herself orange.
+
+BatchGenerations: ['She painted herself orange.\n', 'She painted herself.\n', 'She painted herself orange.\n', 'She painted herself orange.\n', 'Paint herself orange.', "She painted herself orange with the old farmer's orange paint.\n", 'She painted herself orange.\n', 'She painted herself orange.\n', 'She painted herself orange with orange paint.', "She painted herself orange with the old farmer's paint.\n"]
+Perplexity: 0.49081870542819545
+Energy: -20.009047826131184
+NormalizedEntropy:  0.12578828048951451
+LexicalSimilarity:  0.7514339835908465
+SentBERTScore:  1.0
+EigenScore:  -1.9534483565088636
+EigenValue: [1.47527865e+00 2.94852589e-01 1.20224595e-01 2.37975026e-02
+ 1.47959944e-02 1.58623879e-03 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.5751497413567757
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: Whose paint was it? A:
+Question: Whose paint was it?
+GTAns: the farmer
+BestAns: It was the farmer's.
+
+BatchGenerations: ["It was the old farmer's paint.", "It was the farmer's.\n", "The farmer's.", "The old farmer's paint.\n", "It was the farmer's.\n", "It was the old farmer's paint.", "The farmer's.\n", "It was the farmer's.", "The farmer's.\n", "The old farmer's\n"]
+Perplexity: 0.5211440861273109
+Energy: -20.416977246602375
+NormalizedEntropy:  0.1800039602552969
+LexicalSimilarity:  0.7773673240339907
+SentBERTScore:  1.0
+EigenScore:  -1.754911839845746
+EigenValue: [1.08386985e+00 4.88694560e-01 2.24054955e-01 1.93210582e-02
+ 1.63879267e-02 9.94509427e-03 7.55698534e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.7197001531761391
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: What did Cotton's mother and siblings do when they saw her painted orange? A:
+Question: What did Cotton's mother and siblings do when they saw her painted orange?
+GTAns: they started laughing
+BestAns: They laughed.
+
+BatchGenerations: ['They were shocked!\n', 'They laughed.', 'They laughed.\n', 'They were all shocked!', 'They licked her face until she was white again.\n', 'They licked her!', 'They laughed at her.', 'They were horrified!', 'They laughed.', 'They licked her face until she was white again.\n']
+Perplexity: 1.1354225806291451
+Energy: -18.291672229766846
+NormalizedEntropy:  0.40410765591667686
+LexicalSimilarity:  0.41602508602508603
+SentBERTScore:  1.0
+EigenScore:  -1.3220880672781818
+EigenValue: [0.98835652 0.41184218 0.20928464 0.19734527 0.07120557 0.06390048
+ 0.03400508 0.02311792 0.001      0.001     ]
+EigenScore-Output:  -1.1520157691992614
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: Where did Cotton's mother put her to clean the paint off? A:
+Question: Where did Cotton's mother put her to clean the paint off?
+GTAns: a bucket of water
+BestAns: In a bucket of water.
+
+BatchGenerations: ['The tub.\n', 'In a bucket of water!\n', 'In a bucket of water.', 'The bath tub!', 'The bathtub.', 'In a bucket.\n', 'The sink.\n', 'In a bucket of water!\n', 'The bath tub.\n', 'The paint can.\n']
+Perplexity: 0.5422184095153735
+Energy: -19.36141504560198
+NormalizedEntropy:  0.3509984769556848
+LexicalSimilarity:  0.2848148148148149
+SentBERTScore:  1.0
+EigenScore:  -1.511479982760724
+EigenValue: [1.25181679e+00 3.64469218e-01 1.20892423e-01 8.06116747e-02
+ 3.28615279e-02 1.60856657e-02 1.04994650e-02 7.36846704e-03
+ 4.22211844e-03 1.00000000e-03]
+EigenScore-Output:  -1.14367809140265
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: What did the other cats do when Cotton emerged from the bucket of water? A:
+Question: What did the other cats do when Cotton emerged from the bucket of water?
+GTAns: licked her face
+BestAns: They all ran away.
+
+BatchGenerations: ['They cried, "Oh Cotton! You look so different!".\n', 'They licked her fur.\n', 'They all jumped in to lick her.\n', 'They licked her dry.', 'They all said "Oh, Cotton!".\n', 'They purr-ed.\n', 'They were happy she was back to normal!\n', 'They gave her a bath.\n', 'They all said, "Oh Cotton, you\'re so cute!"', 'They jumped in to get her.\n']
+Perplexity: 1.2138314955959035
+Energy: -18.65393575032552
+NormalizedEntropy:  0.37478809594237306
+LexicalSimilarity:  0.2883758688660648
+SentBERTScore:  1.0
+EigenScore:  -1.1765848120953668
+EigenValue: [1.1611247  0.26888016 0.18387981 0.09926436 0.06830643 0.0472917
+ 0.02774181 0.02176406 0.01478675 0.01043261]
+EigenScore-Output:  -0.3303494607271235
+
+ 
+ 
+
+Prompt: Once upon a time, in a barn near a farm house, there lived a little white kitten named Cotton. Cotton lived high up in a nice warm place above the barn where all of the farmer's horses slept. But Cotton wasn't alone in her little home above the barn, oh no. She shared her hay bed with her mommy and 5 other sisters. All of her sisters were cute and fluffy, like Cotton. But she was the only white one in the bunch. The rest of her sisters were all orange with beautiful white tiger stripes like Cotton's mommy. Being different made Cotton quite sad. She often wished she looked like the rest of her family. So one day, when Cotton found a can of the old farmer's orange paint, she used it to paint herself like them. When her mommy and sisters found her they started laughing. 
+
+"What are you doing, Cotton?!" 
+
+"I only wanted to be more like you". 
+
+Cotton's mommy rubbed her face on Cotton's and said "Oh Cotton, but your fur is so pretty and special, like you. We would never want you to be any other way". And with that, Cotton's mommy picked her up and dropped her into a big bucket of water. When Cotton came out she was herself again. Her sisters licked her face until Cotton's fur was all all dry. 
+
+"Don't ever do that again, Cotton!" they all cried. "Next time you might mess up that pretty white fur of yours and we wouldn't want that!" 
+
+Then Cotton thought, "I change my mind. I like being special". Q: Did they want Cotton to change the color of her fur? A:
+Question: Did they want Cotton to change the color of her fur?
+GTAns: no
+BestAns: No, they wanted her to be herself.
+
+BatchGenerations: ['No, they wanted her to be herself.\n', 'No, they wanted her to be herself.\n', "No, Cotton's fur was already special. They just didn't want her to change her fur color.\n", 'No. They wanted her to change the way she saw herself.', 'No, they wanted her to change the color of her mind!', 'No. They wanted her to be herself.\n', 'No. They wanted her to be herself. They wanted her to be Cotton.\n', "No, they didn't. They just wanted her to be happy.\n", 'No. They wanted her to be herself.\n', "No, they didn't want Cotton to change her color of fur. They wanted her to be like them.\n"]
+Perplexity: 0.7365025413564427
+Energy: -20.13259620666504
+NormalizedEntropy:  0.2396699632324489
+LexicalSimilarity:  0.6047235011704792
+SentBERTScore:  1.0
+EigenScore:  -1.469101685847414
+EigenValue: [1.30875978e+00 2.93321600e-01 1.18651536e-01 8.08874244e-02
+ 6.70037926e-02 3.69312025e-02 2.52392043e-02 8.85230340e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.0879599711900625
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: what was the name of the fish A:
+Question: what was the name of the fish
+GTAns: Asta.
+BestAns: Asta
+
+BatchGenerations: ['Asta.\n', 'Asta\n', 'Asta\n', 'Asta.\n', 'Asta\n', 'Asta\n', 'Asta.', 'Asta.\n', 'Asta.\n', 'Asta\n']
+Perplexity: 0.6374486333264899
+Energy: -17.533281962076824
+NormalizedEntropy:  0.20538062150590122
+LexicalSimilarity:  1.0
+SentBERTScore:  1.0
+EigenScore:  -2.421151904465675
+EigenValue: [1.39804125e+00 4.39502116e-01 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -2.3674709565207404
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: What looked like a birds belly A:
+Question: What looked like a birds belly
+GTAns: a bottle
+BestAns: A bottle
+
+BatchGenerations: ['A bottle', 'A bottle.', 'A bottle.\n', 'A bottle.\n', 'The bottle.', 'The bottle.', 'A bottle.\n', 'A bottle\n', 'It was a bottle.', 'A bottle\n']
+Perplexity: 0.7781739069645481
+Energy: -19.38364267349243
+NormalizedEntropy:  0.25804715840944226
+LexicalSimilarity:  0.7629629629629628
+SentBERTScore:  1.0
+EigenScore:  -1.9049879137064862
+EigenValue: [1.44970406e+00 4.23642566e-01 1.20939376e-01 4.69391512e-02
+ 2.55704849e-02 1.00000000e-03 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -2.0962759806069946
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: who said that A:
+Question: who said that
+GTAns: Asta.
+BestAns: Asta's papa B: Asta C: Sharkie D: Sharkie's papa
+
+BatchGenerations: ['Asta said that\n', "Asta's papa\n", "Asta's papa B: Sharkie C: Asta D: None of these\n", "Asta's papa B: Sharkie C: Asta D: None of the above\n", "Asta's papa B: Sharkie C: Asta D: None of the above\n", "Asta's papa B: Sharkie C: Asta D: Sharkie's papa\n", "Asta's papa said that.\n", "Asta's papa", "Asta's papa B: Sharkie C: Asta D: None of the above.\n", "Asta's papa\n"]
+Perplexity: 0.38446492649533304
+Energy: -20.131068271139394
+NormalizedEntropy:  0.15772036587594382
+LexicalSimilarity:  0.5353086952831195
+SentBERTScore:  1.0
+EigenScore:  -1.3159346747028153
+EigenValue: [0.85615201 0.31988688 0.15781972 0.12365779 0.09101652 0.07100394
+ 0.04996875 0.04014413 0.001      0.001     ]
+EigenScore-Output:  -1.410343340213523
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: Was Sharkie a friend? A:
+Question: Was Sharkie a friend?
+GTAns: Yes
+BestAns: Yes, he was.
+
+BatchGenerations: ['No, Sharkie was not a friend.', "Yes, Sharkie was Asta's friend.\n", 'No, he was not. But Asta was.', 'Yes, Sharkie was a friend.', 'Yes, Sharkie was a friend.\n', 'Yes.\n', 'No, Sharkie was not a friend. He was just a friend.\n', "No, he was not. He was just a friend of Asta's.", 'Yes, Sharkie was a friend.', 'No, Sharkie was a fish.\n']
+Perplexity: 0.6649092975980344
+Energy: -21.292513211568195
+NormalizedEntropy:  0.21067824817730268
+LexicalSimilarity:  0.4593047416630671
+SentBERTScore:  1.0
+EigenScore:  -1.2501548735117258
+EigenValue: [1.00975561e+00 3.79501960e-01 1.76211673e-01 1.21754507e-01
+ 8.50656169e-02 5.29527180e-02 4.38549985e-02 3.81451877e-02
+ 5.08627781e-03 1.00000000e-03]
+EigenScore-Output:  -0.9419849026145993
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: did they get the bottle? A:
+Question: did they get the bottle?
+GTAns: Yes
+BestAns: yes, they did.
+
+BatchGenerations: ['yes, they did.\n', 'they did.\n', 'yes, they did.\n', 'yes they did!', 'yes, they did.', 'no.\n', 'no.\n', 'yes.\n', 'Yes, they did.', 'yes, they did.\n']
+Perplexity: 0.7811931849001011
+Energy: -20.31504758199056
+NormalizedEntropy:  0.3800173434145039
+LexicalSimilarity:  0.5288888888888889
+SentBERTScore:  1.0
+EigenScore:  -1.8516752863500021
+EigenValue: [1.31196240e+00 3.97498326e-01 1.54270115e-01 2.39209490e-02
+ 1.49650678e-02 5.86695793e-03 1.80068842e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.8435903294903766
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: What was in it A:
+Question: What was in it
+GTAns: a note
+BestAns: A note.
+
+BatchGenerations: ['A note', 'A note\n', 'A letter from a little girl.\n', 'It was a note from a little girl. It said "I want to be your friend."', 'A note from a little girl.', 'A note.\n', 'A letter from a little girl named Asta.\n', 'A note.\n', 'A note from a little girl.', 'It was a note.\n']
+Perplexity: 1.1657142321847929
+Energy: -16.820011138916016
+NormalizedEntropy:  0.27270428293768967
+LexicalSimilarity:  0.5297049863716531
+SentBERTScore:  1.0
+EigenScore:  -1.4179950865648214
+EigenValue: [1.02940761e+00 4.48775059e-01 1.74350133e-01 1.55076627e-01
+ 9.56383166e-02 4.72637685e-02 1.28712664e-02 9.09249073e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.3770141459941434
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: Did a little boy write the note A:
+Question: Did a little boy write the note
+GTAns: No
+BestAns: No, a little girl wrote the note.
+
+BatchGenerations: ['No. It was a little girl.', 'No, a little girl wrote it.\n', 'Yes, he did.', 'No. A little girl wrote the note. A: The note was written in orange crayon on white paper. A: The note was written in orange crayon on white paper.', 'No. A little girl did.', 'No. A little girl wrote it.', 'No, a little girl wrote the note.\n', 'No. A little girl wrote the note.', 'No. It was a little girl.', 'No, a little girl wrote it.\n']
+Perplexity: 0.42216595524900463
+Energy: -21.939353370666502
+NormalizedEntropy:  0.20789114278531867
+LexicalSimilarity:  0.5249772812517912
+SentBERTScore:  1.0
+EigenScore:  -1.3800809346846155
+EigenValue: [1.00711332e+00 3.67747039e-01 2.20291161e-01 1.76857825e-01
+ 1.32865215e-01 6.31695892e-02 4.80851085e-02 2.71651329e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.2302166789562192
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: Who could read the note A:
+Question: Who could read the note
+GTAns: Asta's papa
+BestAns: Asta's papa.
+BatchGenerations: ["Asta's papa could read the note.\n", "Asta's papa.\n", "Asta's papa could read the note.", 'The note was written in orange crayon on white paper.\n', "Asta's papa could read the note.\n", "Asta's papa.", "Asta's papa.", "Asta's papa could read the note.\n", "Asta's papa\n", "Asta's papa."]
+Perplexity: 0.4302119408857016
+Energy: -21.05297987801688
+NormalizedEntropy:  0.13487575956454978
+LexicalSimilarity:  0.6431372549019609
+SentBERTScore:  1.0
+EigenScore:  -1.9066887760246658
+EigenValue: [1.19397856e+00 4.95431371e-01 9.93660824e-02 7.52625419e-02
+ 1.93782769e-02 1.00000000e-03 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.9219480282892847
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: What did they do with the note A:
+Question: What did they do with the note
+GTAns: unknown
+BestAns: They put it in a bottle and sent it to the little girl.
+BatchGenerations: ['They put it in a bottle and sent it to the little girl.', 'They put it in a bottle and threw it into the ocean. Then they found another bottle. They put their note in it. They threw it into the ocean.\n', 'They put it in a bottle and sent it to the little girl.', 'They put it in a bottle and sent it to the little girl.', 'They put it in a bottle and they sent it to the little girl.', 'They wrote a note back and put it in a bottle. They put the bottle in the ocean and sent it to the girl. And that is how they became friends.\n', 'They put it in a bottle and sent it to the little girl.\n', 'They put it in a bottle and sent it to the little girl.', 'They put it in a bottle and sent it to the little girl.', 'They put it in a bottle.\n']
+Perplexity: 0.39120267176070594
+Energy: -22.057218313217163
+NormalizedEntropy:  0.1166225556130867
+LexicalSimilarity:  0.7343045567198974
+SentBERTScore:  1.0
+EigenScore:  -1.8673732769731604
+EigenValue: [1.28767762e+00 3.86347123e-01 1.04681210e-01 7.96547960e-02
+ 2.48490543e-02 2.05632556e-03 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.7353291797186579
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: did they write back A:
+Question: did they write back
+GTAns: yes
+BestAns: yes they did.
+
+BatchGenerations: ['yes they did.\n', 'yes, they wrote back and they became friends.', 'yes they did!\n', 'No they did not write back.\n', 'yes they did\n', 'yes they did!', 'yes they did\n', 'yes they did.', 'yes they did.\n', 'yes they did']
+Perplexity: 0.8643576042085457
+Energy: -19.06748275756836
+NormalizedEntropy:  0.30829286258592453
+LexicalSimilarity:  0.7722302388969053
+SentBERTScore:  1.0
+EigenScore:  -1.707727677455106
+EigenValue: [1.37678793e+00 2.25613699e-01 1.73242191e-01 1.42359344e-01
+ 5.42243727e-02 2.01491407e-02 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.8483427257660954
+
+ 
+ 
+
+Prompt: Once there was a beautiful fish named Asta. Asta lived in the ocean. There were lots of other fish in the ocean where Asta lived. They played all day long. 
+
+One day, a bottle floated by over the heads of Asta and his friends. They looked up and saw the bottle. "What is it?" said Asta's friend Sharkie. "It looks like a bird's belly," said Asta. But when they swam closer, it was not a bird's belly. It was hard and clear, and there was something inside it. 
+
+The bottle floated above them. They wanted to open it. They wanted to see what was inside. So they caught the bottle and carried it down to the bottom of the ocean. They cracked it open on a rock. When they got it open, they found what was inside. It was a note. The note was written in orange crayon on white paper. Asta could not read the note. Sharkie could not read the note. They took the note to Asta's papa. "What does it say?" they asked. 
+
+Asta's papa read the note. He told Asta and Sharkie, "This note is from a little girl. She wants to be your friend. If you want to be her friend, we can write a note to her. But you have to find another bottle so we can send it to her." And that is what they did. Q: were they excited A:
+Question: were they excited
+GTAns: unknown
+BestAns: yes they were excited.
+
+BatchGenerations: ['yes they were\n', 'yes they were excited.', 'yes they were!\n', 'yes they were!\n', 'yes\n', 'yes they were!\n', 'yes they were excited', 'yes they were because they were friends and they liked each other and they wanted to be friends with the little girl and they wanted to be her friend.\n', 'yes they were\n', 'yes, they were excited!\n']
+Perplexity: 0.9970569031894905
+Energy: -18.830390294392902
+NormalizedEntropy:  0.3070665332482895
+LexicalSimilarity:  0.6912614237614239
+SentBERTScore:  1.0
+EigenScore:  -1.7463242253139022
+EigenValue: [1.33201502e+00 3.52093091e-01 1.23393068e-01 8.88403083e-02
+ 7.46307057e-02 8.96959336e-03 1.00000000e-03 1.00000000e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -1.624113841869771
+
+ 
+ 
+
+Prompt: My doorbell rings. On the step, I find the elderly Chinese lady, small and slight, holding the hand of a little boy. In her other hand, she holds a paper carrier bag. 
+
+I know this lady. It is not her first visit. She is the boy's grandmother, and her daughter bought the house next door last October. 
+
+Her daughter, Nicole, speaks fluent English. But she is now in Shanghai, and her parents are here with the little boy. Nicole has obviously told her mother that I am having heart surgery soon, so her mother has decided I need more nutrients. 
+
+I know what is inside the bag--a thermos with hot soup and a stainless-steel container with rice, vegetables and either chicken, meat or shrimp, sometimes with a kind of pancake. This has become an almost-daily practice. 
+
+Communication between us is somewhat affected by the fact that she doesn't speak English and all I can say in Chinese is hello. Once, she brought an iPad as well as the food. She pointed to the screen, which displayed a message from her daughter telling me that her mother wanted to know if the food was all right and whether it was too salty. I am not used to iPads, so she indicated I should go with her to her house. Then, she handed the iPad to her husband and almost immediately I found myself looking at Nicole in Shanghai and discussing her mother's cooking and salt intake. Instantly, tears welled in my eyes. 
+
+"Your mother just can't be bringing me meals like this all the time," I insisted. "I can hardly do dishes in return." 
+
+"Oh, no, Lucy." Nicole said. "Mum doesn't like western food. Don't worry about it; she has to cook for the three of them anyway, and she wants to do it." 
+
+The doorbell keeps ringing and there is the familiar brown paper carrier bag, handed smilingly to me. 
+
+I am now working on some more Chinese words--it's the least I can do after such display of kindness. 
+
+"Thank you" is, of course, the first one. Somehow, it seems inadequate. Q: Who is at the door? A:
+Question: Who is at the door?
+GTAns: An elderly Chinese lady and a little boy
+BestAns: My Chinese neighbour.
+
+BatchGenerations: ['Lucy.\n', 'The Chinese lady.\n', 'My new neighbour.\n', "It's the Chinese lady.\n", 'My neighbour.\n', 'My heart.\n', 'My Chinese neighbour.\n', 'Lucy.\n', 'The Chinese lady.\n', "My Chinese neighbour. I don't know her name, but I'm learning her face.\n"]
+Perplexity: 1.614042356196909
+Energy: -16.560917472839357
+NormalizedEntropy:  0.501575869549762
+LexicalSimilarity:  0.20475671750181554
+SentBERTScore:  1.0
+EigenScore:  -1.6367137559716045
+EigenValue: [1.32134751e+00 1.26508892e-01 9.55898373e-02 7.58693850e-02
+ 5.80977716e-02 1.17952282e-02 7.71977919e-03 6.69538186e-03
+ 1.00000000e-03 1.00000000e-03]
+EigenScore-Output:  -0.9549381519908164
+
+ 
+ 
+
