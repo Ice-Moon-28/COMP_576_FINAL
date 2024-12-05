@@ -147,11 +147,9 @@ def knock_out_process(model_name:str, args, seed=1, old_sequences=None, max_num_
                                         return_dict_in_generate=True,
                                         output_scores=True,
                                     )
-            # import pdb; pdb.set_trace()
 
-            #
-          
             most_likely_generations = [tokenizer.decode(seq[input_length:]) for seq, input_length in zip(dict_outputs.sequences.cpu(), input_lengths)]
+        
         def print_log(batch_item, generation):
             input_ids = batch_item['input_ids']
 
