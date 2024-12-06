@@ -16,6 +16,8 @@ parser.add_argument('--nprocess', type=int, default=None)
 parser.add_argument('--project_ind', type=int, default=0)
 parser.add_argument('--batch_size', type=int, default=1)
 parser.add_argument('--knock_out', type=bool, default=False)
+parser.add_argument('--use_roberta', type=bool, default=True)
+parser.add_argument('--use_exact_match', type=bool, default=False)
 
 
 args = parser.parse_args()
