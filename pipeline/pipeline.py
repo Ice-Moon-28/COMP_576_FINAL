@@ -24,7 +24,7 @@ import setting
 # import dataeval.TruthfulQA as TruthfulQA
 import models
 import util
-from util.metrics import get_lenghthNormalized_entropy, get_perplexity_score, getAvgBertScore, getEigenIndicator_v0, getEigenIndicatorOutput, getLexicalSim
+from util.metrics import get_lenghthNormalized_entropy, get_perplexity_score, getAvgBertScore, getEigenIndicator_attention_all_layer, getEigenIndicator_v0, getEigenIndicator_v0_all_layer, getEigenIndicator_v3, getEigenIndicator_v3_attention_layer, getEigenIndicatorOutput, getLexicalSim
 from util.metrics import get_energy_score
 from pipeline.pipeline_parser import args
 
@@ -115,11 +115,20 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         generations = []
         num_gens = args.num_generations_per_prompt
         while num_gens > 0:
-            dict_outputs =  model.generate(input_ids, attention_mask=batch['attention_mask'].to(device),
-                            num_beams=1, num_return_sequences=min(max_num_gen_once, num_gens),
-                            do_sample=True, top_p=args.top_p, top_k=args.top_k,
-                            temperature=args.temperature, generation_config=generation_config,
-                            output_hidden_states = True, return_dict_in_generate=True, output_scores=True
+            dict_outputs =  model.generate(
+                                input_ids,
+                                attention_mask=batch['attention_mask'].to(device),
+                                num_beams=1,
+                                num_return_sequences=min(max_num_gen_once, num_gens),
+                                do_sample=True,
+                                top_p=args.top_p,
+                                top_k=args.top_k,
+                                temperature=args.temperature,
+                                generation_config=generation_config,
+                                output_hidden_states = True,
+                                return_dict_in_generate=True,
+                                output_scores=True,
+                                # output_attentions=True,
                             )
 
             generation = dict_outputs.sequences[:, input_length:].cpu()
@@ -128,7 +137,21 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
             scores = dict_outputs.scores
             predictive_entropy = get_lenghthNormalized_entropy(scores, num_tokens) 
             hidden_states = dict_outputs.hidden_states
+            # attention_score = dict_outputs.attentions
             eigenIndicator, eigenValue = getEigenIndicator_v0(hidden_states, num_tokens)
+            eigenIndicator_all_layer, eigenValue_all_layer = getEigenIndicator_v0_all_layer(hidden_states, num_tokens, setting.device)
+
+            # attention_eigenIndicator, attention_eigenValue = getEigenIndicator_attention_all_layer(
+            #     attention_score,
+            #     num_tokens,
+            #     attention_score_length=input_length,
+            #     device=setting.device
+            # )
+
+            eigenIndicator_v3, eigenValue_v3 = getEigenIndicator_v3(hidden_states, setting.device, 0, 35)
+
+            # eigenIndicator_v3_attention_layer, eigenValue_v3_attention_layer = getEigenIndicator_v3_attention_layer(attention_score, input_length, num_tokens=num_tokens, device=setting.device)
+
             num_gens -= len(generation)
 
         generations = torch.nested.nested_tensor(generations).to_padded_tensor(tokenizer.eos_token_id)
@@ -140,6 +163,7 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         eigenIndicatorOutput, eigenValue_O = getEigenIndicatorOutput(generated_texts, SenSimModel)
 
 
+
         # remember the data
         curr_seq = dict(
             prompt=tokenizer.decode(input_ids.cpu()[0], skip_special_tokens=True),
@@ -147,59 +171,123 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
             question=batch['question'][0],
             answer=batch['answer'][0],
             additional_answers=[],
+            batch_idx=batch_idx,
         )
+        
         curr_seq.update(
             dict(
                 most_likely_generation_ids = most_likely_generations,
                 generations_ids=generations,
             )
         )
+
         curr_seq.update(
             dict(
                 most_likely_generation=tokenizer.decode(curr_seq['most_likely_generation_ids'], skip_special_tokens=True),
                 generations=generated_texts,
             )
         )
+
         curr_seq.update(
             dict(
                 perplexity=perplexity
             )
         )
+
         curr_seq.update(
             dict(
                 energy=energy_score
             )
         )
+
         curr_seq.update(
             dict(
                 lexical_similarity=lexical_similarity
             )
         )
+
         curr_seq.update(
             dict(
                 sent_bertscore=sent_bertscore
             )
         )
-        curr_seq.update(
-            dict(
-                entropy=predictive_entropy
-            )
-        )
-        curr_seq.update(
-            dict(
-                eigenIndicator=eigenIndicator
-            )
-        )
+
+        # curr_seq.update(
+        #     dict(
+        #         entropy=predictive_entropy
+        #     )
+        # )
+       
         curr_seq.update(
             dict(
                 eigenIndicatorOutput=eigenIndicatorOutput
             )
         )
+
+        curr_seq.update(
+            dict(
+                eigenValue_O=eigenValue_O
+            )
+        )
+
+        curr_seq.update(
+            dict(
+                eigenIndicator=eigenIndicator
+            )
+        )
+
+        # curr_seq.update(
+        #     dict(
+        #         attention_eigenIndicator=attention_eigenIndicator
+        #     )
+        # )
+        
+        # curr_seq.update(
+        #     dict(
+        #         attention_eigenValue=attention_eigenValue
+        #     )
+        # )
+        
+        curr_seq.update(
+            dict(
+                eigenIndicator_v3=eigenIndicator_v3
+            )
+        )
+        
+        curr_seq.update(
+            dict(
+                eigenValue_v3=eigenValue_v3
+            )
+        )
+
+        curr_seq.update(
+            dict(
+                eigenIndicator_all_layer=eigenIndicator_all_layer
+            )
+        )
+
+        curr_seq.update(
+            dict(
+                eigenValue_all_layer=eigenValue_all_layer
+            )
+        )
+
+        # curr_seq.update(
+        #     dict(
+        #         eigenIndicator_v3_attention_layer=eigenIndicator_v3_attention_layer
+        #     )
+        # )
+
+        # curr_seq.update(
+        #     dict(
+        #         eigenValue_v3_attention_layer=eigenValue_v3_attention_layer
+        #     )
+        # )   
+
         if args.dataset == 'coqa' or args.dataset == "TruthfulQA":
             curr_seq['additional_answers'] = [x[0] for x in batch['additional_answers']]
 
         sequences.append(curr_seq)
-        
         if setting.device == 'cuda':
             torch.cuda.empty_cache()
         elif setting.device == 'mps':
@@ -212,11 +300,20 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         print("Batch_Generations:", generated_texts)
         print("Perplexity:", perplexity)
         print("Energy:", energy_score)
-        print("NormalizedEntropy: ", predictive_entropy)
         print("LexicalSimilarity: ", lexical_similarity)
+        print("NormalizedEntropy: ", predictive_entropy)
         print("EigenScore: ", eigenIndicator)
         print("EigenValue:", eigenValue)
         print("EigenScore-Output: ", eigenIndicatorOutput)
+        print("EigenScore-Output: ", eigenValue_O)
+        print("EigenScore-v3: ", eigenIndicator_v3)
+        print("EigenValue-v3: ", eigenValue_v3)
+        print("EigenScore-all-hidden-states: ", eigenIndicator_all_layer)
+        print("EigenValue-all-hidden-states: ", eigenValue_all_layer)
+        # print("EigenScore-all-attentions: ", attention_eigenIndicator)
+        # print("EigenValue-all-attentions: ", attention_eigenValue)
+        # print("EigenScore-v3-attention: ", eigenIndicator_v3_attention_layer)
+        # print("EigenValue-v3-attention: ", eigenValue_v3_attention_layer)
 
         print("Prompt:", tokenizer.decode(input_ids.cpu()[0], skip_special_tokens=True), file=logInfo)
         print("Question:", batch['question'][0], file=logInfo)
@@ -231,6 +328,16 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         print("EigenScore: ", eigenIndicator, file=logInfo)
         print("EigenValue:", eigenValue, file=logInfo)
         print("EigenScore-Output: ", eigenIndicatorOutput, file=logInfo)
+        print("EigenScore-Output: ", eigenValue_O, file=logInfo)
+        print("EigenScore-v3: ", eigenIndicator_v3, file=logInfo)
+        print("EigenValue-v3: ", eigenValue_v3, file=logInfo)
+        print("EigenScore-all-hidden-states: ", eigenIndicator_all_layer, file=logInfo)
+        print("EigenValue-all-hidden-states: ", eigenValue_all_layer, file=logInfo)
+        # print("EigenScore-all-attentions: ", attention_eigenIndicator, file=logInfo)
+        # print("EigenValue-all-attentions: ", attention_eigenValue, file=logInfo)
+        # print("EigenScore-v3-attention: ", eigenIndicator_v3_attention_layer, file=logInfo)
+        # print("EigenValue-v3-attention: ", eigenValue_v3_attention_layer, file=logInfo)
+
         print("\n","\n","\n", file=logInfo)
     return sequences
 

@@ -145,15 +145,15 @@ def knock_out_process(model_name:str, args, seed=1, old_sequences=None, max_num_
                                         generation_config=generation_config,
                                         output_hidden_states = True,
                                         return_dict_in_generate=True,
-                                        output_scores=False,
+                                        output_scores=True,
                                     )
-            # import pdb; pdb.set_trace()
 
-            #
-          
             most_likely_generations = [tokenizer.decode(seq[input_length:]) for seq, input_length in zip(dict_outputs.sequences.cpu(), input_lengths)]
+        
         def print_log(batch_item, generation):
             input_ids = batch_item['input_ids']
+
+            score = batch_item['score']
             curr_seq = dict(
                 prompt=tokenizer.decode(input_ids.cpu(), skip_special_tokens=True),
                 id=batch_item['id'],
@@ -161,12 +161,13 @@ def knock_out_process(model_name:str, args, seed=1, old_sequences=None, max_num_
                 answer=batch_item['answer'],
             )
 
+            perplexity = get_perplexity_score(score)
+            energy_score = get_energy_score(score)
+
             best_generated_text = generation
 
             scores = evaluate_f1_em(predictions=best_generated_text, references=batch_item['answer'])
 
-            # {"F1-score": avg_f1,  "Exact Match": avg_em, "Precision": avg_precision, "Recall": avg_recall}
-            
             print("Prompt:", tokenizer.decode(input_ids.cpu(), skip_special_tokens=True))
             print("Question:", batch_item['question'])
             print("AnswerGT:", batch_item['answer'])
@@ -175,15 +176,14 @@ def knock_out_process(model_name:str, args, seed=1, old_sequences=None, max_num_
             print("exact match", scores['Exact Match'])
             print("precision", scores['Precision'])
             print("recall", scores['Recall'])
-            print("F1-score", scores['F1-score'], file=logInfo)
-            print("exact match", scores['Exact Match'], file=logInfo)
-            print("precision", scores['Precision'], file=logInfo)
-            print("recall", scores['Recall'], file=logInfo)
 
             print(scores, file=logInfo)
+            print("=== Perplexity ===", perplexity, file=logInfo)
+            print("=== Energy_Score ===", energy_score, file=logInfo)
+            print("=== Perplexity ===", perplexity)
+            print("=== Energy_Score ===", energy_score)
             
             sequences.append(curr_seq)
-
         for i in range(len(most_likely_generations)):
             batch_item = {
                 'input_ids': batch['input_ids'][i],
@@ -191,6 +191,7 @@ def knock_out_process(model_name:str, args, seed=1, old_sequences=None, max_num_
                 'id': batch['id'][i],
                 'question': batch['question'][i],
                 'answer': batch['answer'][i],
+                'score': dict_outputs.scores if args.batch_size == 1 else dict_outputs.scores[i],
             }
 
             generation = most_likely_generations[i]

@@ -13,5 +13,5 @@ def get_knock_out_info(args):
     if args.knock_out:
         logInfo = open("./data/output/knock_out_logInfo_{}_{}_{}.txt".format(args.model.replace("/", "_"), args.dataset, datetime.datetime.now().strftime("%Y%m%d%H%M%S")),  mode="w",encoding="utf-8")
     else:
-        logInfo = open("./data/output/logInfo_{}_{}.txt".format(args.model.replace("/", "_"), args.dataset), mode="w",encoding="utf-8")
+        logInfo = open("./data/output/knock_out_logInfo_{}_{}.txt".format(args.model.replace("/", "_"), args.dataset), mode="w",encoding="utf-8")
     return logInfo
