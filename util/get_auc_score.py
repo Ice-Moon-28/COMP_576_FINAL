@@ -7,6 +7,7 @@ from eval.f1 import compute_exact_match
 from util.metrics import getRouge, getSentenceSimilarity
 rougeEvaluator = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 
+
 def getPCC(x, y):
     rho = np.corrcoef(np.array(x), np.array(y))
     return rho[0,1]
@@ -20,7 +21,7 @@ def get_threshold(thresholds, tpr, fpr):
     thresholdOpt = round(thresholds[index], ndigits = 4)
     return thresholdOpt
 
-def computeAUROC(Label, Prediction, _print, file_name=''):
+def computeAUROC(Label, Prediction, _print, file_name='_'):
     fpr, tpr, thresholds = roc_curve(Label, Prediction)
     AUROC = auc(fpr, tpr)
     # thresh_EigenScore = thresholds[np.argmax(tpr - fpr)]
@@ -29,6 +30,23 @@ def computeAUROC(Label, Prediction, _print, file_name=''):
     # print("thresh_EigenScore:", thresh_EigenScore)
     VisAUROC(tpr, fpr, AUROC, "EigenScore", file_name.split("_")[1])
     pass
+
+def computeAUROC_Seperate_Layers(Label, Prediction, _print, file_name='_'):
+    row_counts = [len(arr) for arr in Prediction]
+
+    unique_row_counts = list(set(row_counts))
+
+    if len(unique_row_counts) == 1:
+        split_arrays = {row: [] for row in range(unique_row_counts[0])}
+
+        for arr in Prediction:
+            for i in range(len(arr)):
+                split_arrays[i].append(arr[i])
+
+        for row in range(unique_row_counts[0]):
+            split_arrays[row] = np.array(split_arrays[row])
+            computeAUROC(Label, split_arrays[row], "AUROC-EigenIndicatorOutput_Seperate_Layers_"+str(row), file_name)
+    
 
 def getAUROC(file_name, args):
     f = open(file_name, 'rb')
@@ -120,7 +138,7 @@ def getAUROC(file_name, args):
 
     row_counts = [len(arr) for arr in EigenIndicatorOutput_Seperate_Layers]
 
-    unique_row_counts = list(set(row_counts)) # 去重并排序
+    unique_row_counts = list(set(row_counts))
     print(unique_row_counts)
 
     if len(unique_row_counts) == 1:
@@ -135,17 +153,93 @@ def getAUROC(file_name, args):
             computeAUROC(Label, split_arrays[row], "AUROC-EigenIndicatorOutput_Seperate_Layers_"+str(row), file_name)
 
 
+def getAttentionAUROC(file_name, args):
+    f = open(file_name, 'rb')
+    resultDict = pickle.load(f)
+    if args.use_roberta:
+        SenSimModel = SentenceTransformer('nli-roberta-large')
+
+    Label = []
+    Score = []
+    Perplexity = []
+    Energy = []
+    # LexicalSimilarity = []
+    # SentBertScore = []
+    Entropy = []
+    # EigenValue_All_Layers = []
+    EigenScore_All_Layers = []
+    # EigenValue_v3_Layers = []
+    EigenScore_v3_Layers = []
+
+    count = 0
+
+    for item in resultDict:
+        count+=1
+        if count % 100 == 0:
+            print(count)
+        ansGT = item["answer"]
+        generations = item["most_likely_generation"]
+        # print("GT:", ansGT)
+        # print("Generation:", generations)
+        Perplexity.append(-item["perplexity"])
+        Energy.append(-item["energy"])
+        # LexicalSimilarity.append(-item["lexicalSimilarity"])
+        # SentBertScore.append(-item["sentBertScore"])
+        Entropy.append(-item["normalized_entropy"])
+        # EigenValue_All_Layers.append([-i for i in item["eigenValue_all_attentions"]])
+        EigenScore_All_Layers.append([-i for sublist in item["eigenScore_all_attentions"] for i in sublist])
+        # EigenValue_v3_Layers.append([-i for i in item["eigenValue_v3_attentions"]])   
+        EigenScore_v3_Layers.append([-i for i in item["eigenScore_v3_attentions"]])
     
+        if args.use_roberta:
+            similarity = getSentenceSimilarity(generations, ansGT, SenSimModel)
+            if "coqa" in file_name or "TruthfulQA" in file_name:
+                additional_answers = item["additional_answers"]
+                similarities = [getSentenceSimilarity(generations, ansGT, SenSimModel) for ansGT in additional_answers]
+                similarity = max(similarity, max(similarities))
+            if similarity>0.9:
+                Label.append(1)
+            else:
+                Label.append(0)
+            Score.append(similarity)
+        elif args.use_exact_match:
+            similarity = compute_exact_match(generations, ansGT)
+            if "coqa" in file_name or "TruthfulQA" in file_name:
+                additional_answers = item["additional_answers"]
+                similarities = [compute_exact_match(generations, ansGT) for ansGT in additional_answers]
+                similarity = max(similarity, max(similarities))
+            if similarity==1:
+                Label.append(1)
+            else:
+                Label.append(0)
+            Score.append(similarity)
+        else:
+            rougeScore = getRouge(rougeEvaluator, generations, ansGT)
+            if "coqa" in file_name or "TruthfulQA" in file_name:
+                additional_answers = item["additional_answers"]
+                rougeScores = [getRouge(rougeEvaluator, generations, ansGT) for ansGT in additional_answers]
+                rougeScore = max(rougeScore, max(rougeScores))
+            if rougeScore>0.5:
+                Label.append(1)
+            else:
+                Label.append(0)
+            Score.append(rougeScore)
+
+    computeAUROC(Label, Entropy, "AUROC-Entropy")
+
+    computeAUROC(Label, Energy, "AUROC-Energy")
+
+    computeAUROC(Label, Perplexity, "AUROC-Perplexity")
+
+    computeAUROC(Label, Score, "AUROC-Similarity")
+
+    computeAUROC_Seperate_Layers(Label, EigenScore_All_Layers, "AUROC-EigenScore_All_Layers")
+
+    computeAUROC_Seperate_Layers(Label, EigenScore_v3_Layers, "AUROC-EigenScore_v3_Layers")
 
 
-    # fpr, tpr, thresholds = roc_curve(Label, Entropy)
-    # AUROC = auc(fpr, tpr)
-    # thresh_Entropy = thresholds[np.argmax(tpr - fpr)]
-    # thresh_Entropy = get_threshold(thresholds, tpr, fpr)
-    # print("AUROC-Entropy:", AUROC)
-    # print("thresh_Entropy:", thresh_Entropy)
-    # VisAUROC(tpr, fpr, AUROC, "NormalizedEntropy")
 
+   
 
 
 
@@ -153,15 +247,15 @@ def getAUROC(file_name, args):
     rho_Perplexity = getPCC(Score, Perplexity)
     # rho_Entropy = getPCC(Score, Entropy)
     rho_Energy = getPCC(Score, Energy)
-    rho_LexicalSimilarity = getPCC(Score, LexicalSimilarity)
-    rho_EigenIndicator = getPCC(Score, EigenIndicator)
-    rho_EigenIndicatorOutput = getPCC(Score, EigenIndicatorOutput)
+    # rho_LexicalSimilarity = getPCC(Score, LexicalSimilarity)
+    # rho_EigenIndicator = getPCC(Score, EigenIndicator)
+    # rho_EigenIndicatorOutput = getPCC(Score, EigenIndicatorOutput)
     print("rho_Perplexity:", rho_Perplexity)
     print("rho_Energy:", rho_Energy)
     # print("rho_Entropy:", rho_Entropy)
-    print("rho_LexicalSimilarity:", rho_LexicalSimilarity)
-    print("rho_EigenScore:", rho_EigenIndicator)
-    print("rho_EigenScoreOutput:", rho_EigenIndicatorOutput)
+    # print("rho_LexicalSimilarity:", rho_LexicalSimilarity)
+    # print("rho_EigenScore:", rho_EigenIndicator)
+    # print("rho_EigenScoreOutput:", rho_EigenIndicatorOutput)
 
 
 

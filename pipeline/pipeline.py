@@ -158,7 +158,7 @@ def get_generations(model_name:str, args, seed=1, old_sequences=None, max_num_ge
         generations = generations.reshape(-1, generations.shape[-1])[:args.num_generations_per_prompt]
         best_generated_text = tokenizer.decode(most_likely_generations, skip_special_tokens=True)
         generated_texts = [tokenizer.decode(_, skip_special_tokens=True) for _ in generations]
-        # lexical_similarity = getLexicalSim(generated_texts)
+        lexical_similarity = getLexicalSim(generated_texts)
         # sent_bertscore = getAvgBertScore(bertscore, best_generated_text, generated_texts)
         # eigenIndicatorOutput, eigenValue_O = getEigenIndicatorOutput(generated_texts, SenSimModel)
 

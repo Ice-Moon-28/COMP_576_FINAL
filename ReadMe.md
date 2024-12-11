@@ -1,16 +1,22 @@
-nohup python main.py --model meta-llama/Llama-2-7b-hf --dataset coqa --device cuda --num_generations_per_prompt 10 > output1.log 2>&1 &
+## Readme 
 
-python main.py --model meta-llama/Llama-2-7b-hf  --dataset coqa --device cuda --num_generations_per_prompt 10
-python knock_out_main.py --model meta-llama/Llama-2-7b-hf  --dataset coqa --device mps --num_generations_per_prompt 10 --batch_size 1
-python knock_out_main.py --model meta-llama/Llama-2-7b-hf  --dataset coqa --device cuda --num_generations_per_prompt 10 --batch_size 1
+This is the github repository for Rice University ELEC 576 Project.
+
+It's our poster the project.
 
 
-python main.py --model meta-llama/Llama-2-7b-hf --dataset squad --device cuda --num_generations_per_prompt 10
-python main.py --model meta-llama/Llama-2-7b-hf --dataset squad --device mps --num_generations_per_prompt 10
-python eval_main.py --model meta-llama/Llama-2-7b-hf --dataset coqa  --device mps --num_generations_per_prompt 10
+### Quick Start
 
-git config --global user.name "Linghua Zhang"
-git config --global user.email "zlh20011228@gmail.com"
+0. use environmental.yml to install the environment of the project.
+
+1. run `sh run.sh` to install the weight of model 
+
+2. run `python main.py --model meta-llama/Llama-2-7b-hf  --dataset coqa --device cuda --num_generations_per_prompt 10` 
+
+3. run `python eval_main.py --model meta-llama/Llama-2-7b-hf --dataset coqa  --device mps --num_generations_per_prompt 10`
+and `python eval_attention_main.py --model meta-llama/Llama-2-7b-hf --dataset coqa  --device mps --num_generations_per_prompt 10` to get result of the project.
+
+### Result of the project
 
 AUROC-Perplexity: 0.5230299187604817
 AUROC-Energy: 0.38034706147511493
