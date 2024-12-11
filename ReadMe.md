@@ -4,14 +4,16 @@ This is the github repository for Rice University ELEC 576 Project.
 
 It's our poster the project.
 
+![Poster](Poster.jpg)
+
 
 ### Quick Start
 
-0. use environmental.yml to install the environment of the project.
+0.run `conda env create -f environment.yml`, use environmental.yml to install the environment of the project.
 
 1. run `sh run.sh` to install the weight of model 
 
-2. run `python main.py --model meta-llama/Llama-2-7b-hf  --dataset coqa --device cuda --num_generations_per_prompt 10` 
+2. run `python main.py --model meta-llama/Llama-2-7b-hf  --dataset coqa --device cuda --num_generations_per_prompt 10` to run the experiment of our poster
 
 3. run `python eval_main.py --model meta-llama/Llama-2-7b-hf --dataset coqa  --device mps --num_generations_per_prompt 10`
 and `python eval_attention_main.py --model meta-llama/Llama-2-7b-hf --dataset coqa  --device mps --num_generations_per_prompt 10` to get result of the project.
