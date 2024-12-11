@@ -9,7 +9,7 @@ It's our poster the project.
 
 ### Quick Start
 
-0.run `conda env create -f environment.yml`, use environmental.yml to install the environment of the project.
+0. run `conda env create -f environment.yml`, use environmental.yml to install the environment of the project.
 
 1. run `sh run.sh` to install the weight of model 
 
